@@ -1,1 +1,23 @@
-
+{
+  "launcherVersion": "1.0.0",
+  "minecraftVersion": "1.21.1",
+  "neoforgeVersion": "21.1.248",
+  "server": {
+    "ip": "play.hummbertwo.net",
+    "port": 25565
+  },
+  "news": [
+    { "title": "¡Bienvenido al nuevo launcher!", "date": "2026-09-07" },
+    { "title": "Evento de Halloween próximo", "date": "2026-10-31" }
+  ],
+  "mods": [
+    {
+      "name": "EjemploMod",
+      "fileName": "ejemplomod-1.2.0.jar",
+      "url": "https://github.com/tu-usuario/tu-repo/releases/download/v1.2/ejemplomod-1.2.0.jar",
+      "sha1": "hash_sha1_del_archivo",
+      "version": "1.2.0",
+      "required": true
+    }
+  ]
+}
