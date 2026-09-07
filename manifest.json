@@ -1,15 +1,374 @@
 {
   "news": [
-    { "title": "¡Bienvenido al nuevo launcher!", "date": "2026-09-07" },
-    { "title": "Evento de Halloween próximo", "date": "2026-10-31" }
+    {
+      "title": "¡Bienvenido al nuevo launcher!",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "Evento de Halloween próximo",
+      "date": "2026-10-31"
+    }
   ],
   "mods": [
     {
-      "name": "ejemplo-mod",
-      "fileName": "ejemplo-mod-1.0.jar",
-      "url": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/mods/ejemplo-mod-1.0.jar",
-      "version": "1.0",
-      "required": true
+      "name": "AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1",
+      "fileName": "AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
+      "version": "AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1"
+    },
+    {
+      "name": "appleskin-neoforge-mc1.21-3.0.9",
+      "fileName": "appleskin-neoforge-mc1.21-3.0.9.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/appleskin-neoforge-mc1.21-3.0.9.jar",
+      "version": "appleskin-neoforge-mc1.21-3.0.9"
+    },
+    {
+      "name": "architectury-13.0.11-neoforge",
+      "fileName": "architectury-13.0.11-neoforge.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/architectury-13.0.11-neoforge.jar",
+      "version": "architectury-13.0.11-neoforge"
+    },
+    {
+      "name": "balm-neoforge-1.21.1-21.0.65",
+      "fileName": "balm-neoforge-1.21.1-21.0.65.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/balm-neoforge-1.21.1-21.0.65.jar",
+      "version": "balm-neoforge-1.21.1-21.0.65"
+    },
+    {
+      "name": "bellsandwhistles-0.4.7-1.21.1",
+      "fileName": "bellsandwhistles-0.4.7-1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/bellsandwhistles-0.4.7-1.21.1.jar",
+      "version": "bellsandwhistles-0.4.7-1.21.1"
+    },
+    {
+      "name": "better-advanced-tooltips-2101.1.0-build.5",
+      "fileName": "better-advanced-tooltips-2101.1.0-build.5.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/better-advanced-tooltips-2101.1.0-build.5.jar",
+      "version": "better-advanced-tooltips-2101.1.0-build.5"
+    },
+    {
+      "name": "bettercombat-neoforge-2.4.0+1.21.1",
+      "fileName": "bettercombat-neoforge-2.4.0+1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/bettercombat-neoforge-2.4.0+1.21.1.jar",
+      "version": "bettercombat-neoforge-2.4.0+1.21.1"
+    },
+    {
+      "name": "chat_heads-0.15.7-neoforge-1.21",
+      "fileName": "chat_heads-0.15.7-neoforge-1.21.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/chat_heads-0.15.7-neoforge-1.21.jar",
+      "version": "chat_heads-0.15.7-neoforge-1.21"
+    },
+    {
+      "name": "cloth-config-15.0.140-neoforge",
+      "fileName": "cloth-config-15.0.140-neoforge.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/cloth-config-15.0.140-neoforge.jar",
+      "version": "cloth-config-15.0.140-neoforge"
+    },
+    {
+      "name": "copycats-3.0.8+mc.1.21.1-neoforge",
+      "fileName": "copycats-3.0.8+mc.1.21.1-neoforge.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/copycats-3.0.8+mc.1.21.1-neoforge.jar",
+      "version": "copycats-3.0.8+mc.1.21.1-neoforge"
+    },
+    {
+      "name": "create-1.21.1-6.0.10",
+      "fileName": "create-1.21.1-6.0.10.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/create-1.21.1-6.0.10.jar",
+      "version": "create-1.21.1-6.0.10"
+    },
+    {
+      "name": "createdeco-2.1.3",
+      "fileName": "createdeco-2.1.3.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/createdeco-2.1.3.jar",
+      "version": "createdeco-2.1.3"
+    },
+    {
+      "name": "CreativeCore_NEOFORGE_v2.13.44_mc1.21.1",
+      "fileName": "CreativeCore_NEOFORGE_v2.13.44_mc1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/CreativeCore_NEOFORGE_v2.13.44_mc1.21.1.jar",
+      "version": "CreativeCore_NEOFORGE_v2.13.44_mc1.21.1"
+    },
+    {
+      "name": "cristellib-neoforge-1.21.1-3.1.7",
+      "fileName": "cristellib-neoforge-1.21.1-3.1.7.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/cristellib-neoforge-1.21.1-3.1.7.jar",
+      "version": "cristellib-neoforge-1.21.1-3.1.7"
+    },
+    {
+      "name": "curios-neoforge-9.5.1+1.21.1",
+      "fileName": "curios-neoforge-9.5.1+1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/curios-neoforge-9.5.1+1.21.1.jar",
+      "version": "curios-neoforge-9.5.1+1.21.1"
+    },
+    {
+      "name": "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge",
+      "fileName": "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
+      "version": "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge"
+    },
+    {
+      "name": "dynamiccrosshair-9.11+1.21.1-neoforge",
+      "fileName": "dynamiccrosshair-9.11+1.21.1-neoforge.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/dynamiccrosshair-9.11+1.21.1-neoforge.jar",
+      "version": "dynamiccrosshair-9.11+1.21.1-neoforge"
+    },
+    {
+      "name": "embeddium-1.0.15+mc1.21.1",
+      "fileName": "embeddium-1.0.15+mc1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/embeddium-1.0.15+mc1.21.1.jar",
+      "version": "embeddium-1.0.15+mc1.21.1"
+    },
+    {
+      "name": "entityculling-neoforge-1.10.5-mc1.21.1",
+      "fileName": "entityculling-neoforge-1.10.5-mc1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/entityculling-neoforge-1.10.5-mc1.21.1.jar",
+      "version": "entityculling-neoforge-1.10.5-mc1.21.1"
+    },
+    {
+      "name": "entity_model_features-3.3.5-1.21-neoforge",
+      "fileName": "entity_model_features-3.3.5-1.21-neoforge.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/entity_model_features-3.3.5-1.21-neoforge.jar",
+      "version": "entity_model_features-3.3.5-1.21-neoforge"
+    },
+    {
+      "name": "entity_texture_features-7.2.1-1.21-neoforge",
+      "fileName": "entity_texture_features-7.2.1-1.21-neoforge.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/entity_texture_features-7.2.1-1.21-neoforge.jar",
+      "version": "entity_texture_features-7.2.1-1.21-neoforge"
+    },
+    {
+      "name": "FarmersDelight-1.21.1-1.3.4",
+      "fileName": "FarmersDelight-1.21.1-1.3.4.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/FarmersDelight-1.21.1-1.3.4.jar",
+      "version": "FarmersDelight-1.21.1-1.3.4"
+    },
+    {
+      "name": "ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge",
+      "fileName": "ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar",
+      "version": "ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge"
+    },
+    {
+      "name": "fzzy_config-0.7.6+1.21+neoforge",
+      "fileName": "fzzy_config-0.7.6+1.21+neoforge.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/fzzy_config-0.7.6+1.21+neoforge.jar",
+      "version": "fzzy_config-0.7.6+1.21+neoforge"
+    },
+    {
+      "name": "geckolib-neoforge-1.21.1-4.9.2",
+      "fileName": "geckolib-neoforge-1.21.1-4.9.2.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/geckolib-neoforge-1.21.1-4.9.2.jar",
+      "version": "geckolib-neoforge-1.21.1-4.9.2"
+    },
+    {
+      "name": "GlitchCore-neoforge-1.21.1-2.1.0.2",
+      "fileName": "GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+      "version": "GlitchCore-neoforge-1.21.1-2.1.0.2"
+    },
+    {
+      "name": "handcrafted-neoforge-1.21.1-4.0.3",
+      "fileName": "handcrafted-neoforge-1.21.1-4.0.3.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/handcrafted-neoforge-1.21.1-4.0.3.jar",
+      "version": "handcrafted-neoforge-1.21.1-4.0.3"
+    },
+    {
+      "name": "iceandfire-2.1.2",
+      "fileName": "iceandfire-2.1.2.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/iceandfire-2.1.2.jar",
+      "version": "iceandfire-2.1.2"
+    },
+    {
+      "name": "ImmediatelyFast-NeoForge-1.6.13+1.21.1",
+      "fileName": "ImmediatelyFast-NeoForge-1.6.13+1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/ImmediatelyFast-NeoForge-1.6.13+1.21.1.jar",
+      "version": "ImmediatelyFast-NeoForge-1.6.13+1.21.1"
+    },
+    {
+      "name": "immersive_furniture-neoforge-0.3.3+1.21.1",
+      "fileName": "immersive_furniture-neoforge-0.3.3+1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/immersive_furniture-neoforge-0.3.3+1.21.1.jar",
+      "version": "immersive_furniture-neoforge-0.3.3+1.21.1"
+    },
+    {
+      "name": "Jade-1.21.1-NeoForge-15.10.6",
+      "fileName": "Jade-1.21.1-NeoForge-15.10.6.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/Jade-1.21.1-NeoForge-15.10.6.jar",
+      "version": "Jade-1.21.1-NeoForge-15.10.6"
+    },
+    {
+      "name": "jei-1.21.1-neoforge-19.52.0.422",
+      "fileName": "jei-1.21.1-neoforge-19.52.0.422.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/jei-1.21.1-neoforge-19.52.0.422.jar",
+      "version": "jei-1.21.1-neoforge-19.52.0.422"
+    },
+    {
+      "name": "jupiter-2.3.7-1.21.1-neoforge",
+      "fileName": "jupiter-2.3.7-1.21.1-neoforge.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/jupiter-2.3.7-1.21.1-neoforge.jar",
+      "version": "jupiter-2.3.7-1.21.1-neoforge"
+    },
+    {
+      "name": "kotlinforforge-5.12.0-all",
+      "fileName": "kotlinforforge-5.12.0-all.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/kotlinforforge-5.12.0-all.jar",
+      "version": "kotlinforforge-5.12.0-all"
+    },
+    {
+      "name": "kubejs-neoforge-2101.7.2-build.374",
+      "fileName": "kubejs-neoforge-2101.7.2-build.374.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/kubejs-neoforge-2101.7.2-build.374.jar",
+      "version": "kubejs-neoforge-2101.7.2-build.374"
+    },
+    {
+      "name": "lambdynamiclights-4.8.11+1.21.1",
+      "fileName": "lambdynamiclights-4.8.11+1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/lambdynamiclights-4.8.11+1.21.1.jar",
+      "version": "lambdynamiclights-4.8.11+1.21.1"
+    },
+    {
+      "name": "midnightlib-neoforge-1.9.3+1.21.1",
+      "fileName": "midnightlib-neoforge-1.9.3+1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/midnightlib-neoforge-1.9.3+1.21.1.jar",
+      "version": "midnightlib-neoforge-1.9.3+1.21.1"
+    },
+    {
+      "name": "moreculling-neoforge-1.21.1-1.0.9",
+      "fileName": "moreculling-neoforge-1.21.1-1.0.9.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/moreculling-neoforge-1.21.1-1.0.9.jar",
+      "version": "moreculling-neoforge-1.21.1-1.0.9"
+    },
+    {
+      "name": "naturalist-2.0.3-neoforge-1.21.1",
+      "fileName": "naturalist-2.0.3-neoforge-1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/naturalist-2.0.3-neoforge-1.21.1.jar",
+      "version": "naturalist-2.0.3-neoforge-1.21.1"
+    },
+    {
+      "name": "neoculus-mc1.21.1-1.8.7",
+      "fileName": "neoculus-mc1.21.1-1.8.7.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/neoculus-mc1.21.1-1.8.7.jar",
+      "version": "neoculus-mc1.21.1-1.8.7"
+    },
+    {
+      "name": "player-animation-lib-forge-2.0.4+1.21.1",
+      "fileName": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "version": "player-animation-lib-forge-2.0.4+1.21.1"
+    },
+    {
+      "name": "raynnarpg-1.6.1",
+      "fileName": "raynnarpg-1.6.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/raynnarpg-1.6.1.jar",
+      "version": "raynnarpg-1.6.1"
+    },
+    {
+      "name": "resourcefullib-neoforge-1.21-3.0.12",
+      "fileName": "resourcefullib-neoforge-1.21-3.0.12.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/resourcefullib-neoforge-1.21-3.0.12.jar",
+      "version": "resourcefullib-neoforge-1.21-3.0.12"
+    },
+    {
+      "name": "rhino-2101.2.8-build.91",
+      "fileName": "rhino-2101.2.8-build.91.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/rhino-2101.2.8-build.91.jar",
+      "version": "rhino-2101.2.8-build.91"
+    },
+    {
+      "name": "scriptedvision-1.0",
+      "fileName": "scriptedvision-1.0.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/scriptedvision-1.0.jar",
+      "version": "scriptedvision-1.0"
+    },
+    {
+      "name": "SereneSeasons-neoforge-1.21.1-10.1.0.3",
+      "fileName": "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
+      "version": "SereneSeasons-neoforge-1.21.1-10.1.0.3"
+    },
+    {
+      "name": "skinlayers3d-neoforge-1.11.2-mc1.21.1",
+      "fileName": "skinlayers3d-neoforge-1.11.2-mc1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/skinlayers3d-neoforge-1.11.2-mc1.21.1.jar",
+      "version": "skinlayers3d-neoforge-1.11.2-mc1.21.1"
+    },
+    {
+      "name": "sophisticatedbackpacks-1.21.1-3.25.78.2107",
+      "fileName": "sophisticatedbackpacks-1.21.1-3.25.78.2107.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/sophisticatedbackpacks-1.21.1-3.25.78.2107.jar",
+      "version": "sophisticatedbackpacks-1.21.1-3.25.78.2107"
+    },
+    {
+      "name": "sophisticatedcore-1.21.1-1.4.90.2299",
+      "fileName": "sophisticatedcore-1.21.1-1.4.90.2299.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/sophisticatedcore-1.21.1-1.4.90.2299.jar",
+      "version": "sophisticatedcore-1.21.1-1.4.90.2299"
+    },
+    {
+      "name": "sound-physics-remastered-neoforge-1.21.1-1.4.10",
+      "fileName": "sound-physics-remastered-neoforge-1.21.1-1.4.10.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/sound-physics-remastered-neoforge-1.21.1-1.4.10.jar",
+      "version": "sound-physics-remastered-neoforge-1.21.1-1.4.10"
+    },
+    {
+      "name": "SubtleEffects-neoforge-1.21.1-1.14.3",
+      "fileName": "SubtleEffects-neoforge-1.21.1-1.14.3.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/SubtleEffects-neoforge-1.21.1-1.14.3.jar",
+      "version": "SubtleEffects-neoforge-1.21.1-1.14.3"
+    },
+    {
+      "name": "TerraBlender-neoforge-1.21.1-4.1.0.8",
+      "fileName": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+      "version": "TerraBlender-neoforge-1.21.1-4.1.0.8"
+    },
+    {
+      "name": "TreeChop-1.21.1-neoforge-0.19.3",
+      "fileName": "TreeChop-1.21.1-neoforge-0.19.3.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/TreeChop-1.21.1-neoforge-0.19.3.jar",
+      "version": "TreeChop-1.21.1-neoforge-0.19.3"
+    },
+    {
+      "name": "Tyz's skills 6.4.2 - 1.21.1",
+      "fileName": "Tyz's skills 6.4.2 - 1.21.1.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/Tyz's skills 6.4.2 - 1.21.1.jar",
+      "version": "Tyz's skills 6.4.2 - 1.21.1"
+    },
+    {
+      "name": "t_and_t-fabric-neoforge-1.13.11",
+      "fileName": "t_and_t-fabric-neoforge-1.13.11.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/t_and_t-fabric-neoforge-1.13.11.jar",
+      "version": "t_and_t-fabric-neoforge-1.13.11"
+    },
+    {
+      "name": "uranus-2.4.1-bugfix-1.21.1-neoforge",
+      "fileName": "uranus-2.4.1-bugfix-1.21.1-neoforge.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/uranus-2.4.1-bugfix-1.21.1-neoforge.jar",
+      "version": "uranus-2.4.1-bugfix-1.21.1-neoforge"
+    },
+    {
+      "name": "voicechat-neoforge-1.21.1-2.6.22",
+      "fileName": "voicechat-neoforge-1.21.1-2.6.22.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/voicechat-neoforge-1.21.1-2.6.22.jar",
+      "version": "voicechat-neoforge-1.21.1-2.6.22"
+    },
+    {
+      "name": "waystones-neoforge-1.21.1-21.1.41",
+      "fileName": "waystones-neoforge-1.21.1-21.1.41.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/waystones-neoforge-1.21.1-21.1.41.jar",
+      "version": "waystones-neoforge-1.21.1-21.1.41"
+    },
+    {
+      "name": "xaerominimap-neoforge-1.21.1-26.4.2",
+      "fileName": "xaerominimap-neoforge-1.21.1-26.4.2.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/xaerominimap-neoforge-1.21.1-26.4.2.jar",
+      "version": "xaerominimap-neoforge-1.21.1-26.4.2"
+    },
+    {
+      "name": "xaeroworldmap-neoforge-1.21.1-1.45.0",
+      "fileName": "xaeroworldmap-neoforge-1.21.1-1.45.0.jar",
+      "url": "https://github.com/hummbertwo/hummbertwo-launcher-data/tree/main/preinstalled/mods/xaeroworldmap-neoforge-1.21.1-1.45.0.jar",
+      "version": "xaeroworldmap-neoforge-1.21.1-1.45.0"
     }
   ]
 }
