@@ -1,0 +1,884 @@
+#Settings for Server
+[server_settings]
+	#Fine adjust the xp rate of server.
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	xp_rate = 1.0
+	#Fine adjust the max level of each skill in server.
+	# Default: 50
+	# Range: > 1
+	max_level = 50
+	#Fine adjust the max xp of each skill in server.
+	# Default: 303000
+	# Range: 1 ~ 100000000
+	max_xp = 303000
+	#Fine adjust the level difference for xp cap of each skill in server.
+	#0 for disabled.
+	#For example, if you are level 40, and diamond ore is level 20, and you have level cap of 20, you will not gain xp, changing this to level cap 10, will make so you gain xp until level 30, as an example.
+	# Default: 0
+	# Range: > 0
+	level_cap = 0
+	#Fine adjust the base xp for mining skill in server.
+	#This setting is to increase the starting xp for materials.
+	# Default: 3.0
+	# Range: 0.1 ~ 1000.0
+	base_mining_xp = 3.0
+	#Fine adjust the base xp for smelting skill in server.
+	#This setting is to increase the starting xp for materials.
+	# Default: 3.0
+	# Range: 0.1 ~ 1000.0
+	base_smelting_xp = 3.0
+	#Fine adjust the base xp for crafting skill in server.
+	#This setting is to increase the starting xp for materials.
+	# Default: 3.0
+	# Range: 0.1 ~ 1000.0
+	base_crafting_xp = 3.0
+
+#Settings for Combat
+[combat_config]
+
+	[combat_config.combat_weapons]
+		#Configurations for level requirements for wooden sword
+		#Default: 1
+		minecraft_wooden_sword_level = 1
+		#Configurations for level requirements for wooden axe
+		#Default: 1
+		minecraft_wooden_axe_level = 1
+		#Configurations for level requirements for stone sword
+		#Default: 5
+		minecraft_stone_sword_level = 5
+		#Configurations for level requirements for stone axe
+		#Default: 5
+		minecraft_stone_axe_level = 5
+		#Configurations for level requirements for iron sword
+		#Default: 15
+		minecraft_iron_sword_level = 15
+		#Configurations for level requirements for iron axe
+		#Default: 15
+		minecraft_iron_axe_level = 15
+		#Configurations for level requirements for golden sword
+		#Default: 15
+		minecraft_golden_sword_level = 15
+		#Configurations for level requirements for golden axe
+		#Default: 15
+		minecraft_golden_axe_level = 15
+		#Configurations for level requirements for diamond sword
+		#Default: 30
+		minecraft_diamond_sword_level = 30
+		#Configurations for level requirements for diamond axe
+		#Default: 30
+		minecraft_diamond_axe_level = 30
+		#Configurations for level requirements for netherite sword
+		#Default: 40
+		minecraft_netherite_sword_level = 40
+		#Configurations for level requirements for netherite axe
+		#Default: 40
+		minecraft_netherite_axe_level = 40
+
+	[combat_config.combat_armour]
+		#Configurations for level requirements for leather helmet
+		#Default: 1
+		minecraft_leather_helmet_level = 1
+		#Configurations for level requirements for leather chestplate
+		#Default: 1
+		minecraft_leather_chestplate_level = 1
+		#Configurations for level requirements for leather leggings
+		#Default: 1
+		minecraft_leather_leggings_level = 1
+		#Configurations for level requirements for leather boots
+		#Default: 1
+		minecraft_leather_boots_level = 1
+		#Configurations for level requirements for stone helmet
+		#Default: 5
+		minecraft_stone_helmet_level = 5
+		#Configurations for level requirements for stone chestplate
+		#Default: 5
+		minecraft_stone_chestplate_level = 5
+		#Configurations for level requirements for stone leggings
+		#Default: 5
+		minecraft_stone_leggings_level = 5
+		#Configurations for level requirements for stone boots
+		#Default: 5
+		minecraft_stone_boots_level = 5
+		#Configurations for level requirements for chainmail helmet
+		#Default: 12
+		minecraft_chainmail_helmet_level = 12
+		#Configurations for level requirements for chainmail chestplate
+		#Default: 12
+		minecraft_chainmail_chestplate_level = 12
+		#Configurations for level requirements for chainmail leggings
+		#Default: 12
+		minecraft_chainmail_leggings_level = 12
+		#Configurations for level requirements for chainmail boots
+		#Default: 12
+		minecraft_chainmail_boots_level = 12
+		#Configurations for level requirements for iron helmet
+		#Default: 15
+		minecraft_iron_helmet_level = 15
+		#Configurations for level requirements for iron chestplate
+		#Default: 15
+		minecraft_iron_chestplate_level = 15
+		#Configurations for level requirements for iron leggings
+		#Default: 15
+		minecraft_iron_leggings_level = 15
+		#Configurations for level requirements for iron boots
+		#Default: 15
+		minecraft_iron_boots_level = 15
+		#Configurations for level requirements for golden helmet
+		#Default: 15
+		minecraft_golden_helmet_level = 15
+		#Configurations for level requirements for golden chestplate
+		#Default: 15
+		minecraft_golden_chestplate_level = 15
+		#Configurations for level requirements for golden leggings
+		#Default: 15
+		minecraft_golden_leggings_level = 15
+		#Configurations for level requirements for golden boots
+		#Default: 15
+		minecraft_golden_boots_level = 15
+		#Configurations for level requirements for diamond helmet
+		#Default: 30
+		minecraft_diamond_helmet_level = 30
+		#Configurations for level requirements for diamond chestplate
+		#Default: 30
+		minecraft_diamond_chestplate_level = 30
+		#Configurations for level requirements for diamond leggings
+		#Default: 30
+		minecraft_diamond_leggings_level = 30
+		#Configurations for level requirements for diamond boots
+		#Default: 30
+		minecraft_diamond_boots_level = 30
+		#Configurations for level requirements for netherite helmet
+		#Default: 40
+		minecraft_netherite_helmet_level = 40
+		#Configurations for level requirements for netherite chestplate
+		#Default: 40
+		minecraft_netherite_chestplate_level = 40
+		#Configurations for level requirements for netherite leggings
+		#Default: 40
+		minecraft_netherite_leggings_level = 40
+		#Configurations for level requirements for netherite boots
+		#Default: 40
+		minecraft_netherite_boots_level = 40
+
+	[combat_config.iceandfire_weapons]
+		#Configurations for level requirements for copper sword
+		#Default: 10
+		iceandfire_copper_sword_level = 10
+		#Configurations for level requirements for copper axe
+		#Default: 10
+		iceandfire_copper_axe_level = 10
+		#Configurations for level requirements for silver sword
+		#Default: 12
+		iceandfire_silver_sword_level = 12
+		#Configurations for level requirements for silver axe
+		#Default: 12
+		iceandfire_silver_axe_level = 12
+
+	[combat_config.iceandfire_armours]
+		#Configurations for level requirements for armor copper metal helmet
+		#Default: 10
+		iceandfire_armor_copper_metal_helmet_level = 10
+		#Configurations for level requirements for armor copper metal chestplate
+		#Default: 10
+		iceandfire_armor_copper_metal_chestplate_level = 10
+		#Configurations for level requirements for armor copper metal leggings
+		#Default: 10
+		iceandfire_armor_copper_metal_leggings_level = 10
+		#Configurations for level requirements for armor copper metal boots
+		#Default: 10
+		iceandfire_armor_copper_metal_boots_level = 10
+		#Configurations for level requirements for armor silver metal helmet
+		#Default: 12
+		iceandfire_armor_silver_metal_helmet_level = 12
+		#Configurations for level requirements for armor silver metal chestplate
+		#Default: 12
+		iceandfire_armor_silver_metal_chestplate_level = 12
+		#Configurations for level requirements for armor silver metal leggings
+		#Default: 12
+		iceandfire_armor_silver_metal_leggings_level = 12
+		#Configurations for level requirements for armor silver metal boots
+		#Default: 12
+		iceandfire_armor_silver_metal_boots_level = 12
+
+#Settings for Tools
+[tools_config]
+
+	[tools_config.minecraft_tools]
+		#Configurations for level requirements for wooden pickaxe
+		#Default: 1
+		minecraft_wooden_pickaxe_level = 1
+		#Configurations for level requirements for stone pickaxe
+		#Default: 5
+		minecraft_stone_pickaxe_level = 5
+		#Configurations for level requirements for iron pickaxe
+		#Default: 15
+		minecraft_iron_pickaxe_level = 15
+		#Configurations for level requirements for golden pickaxe
+		#Default: 15
+		minecraft_golden_pickaxe_level = 15
+		#Configurations for level requirements for diamond pickaxe
+		#Default: 30
+		minecraft_diamond_pickaxe_level = 30
+		#Configurations for level requirements for netherite pickaxe
+		#Default: 40
+		minecraft_netherite_pickaxe_level = 40
+
+	[tools_config.iceandfire_tools]
+		#Configurations for level requirements for copper pickaxe
+		#Default: 10
+		iceandfire_copper_pickaxe_level = 10
+		#Configurations for level requirements for silver pickaxe
+		#Default: 12
+		iceandfire_silver_pickaxe_level = 12
+
+#Settings for Crafting
+[crafting_config]
+
+	[crafting_config.crafting_wood_materials]
+		#Config on crafting level requirement for logs materials
+		#Default: 1
+		minecraft_logs_level = 1
+		#Config on crafting experience yield for logs materials
+		#Default: 0.0
+		minecraft_logs_xp = 0.0
+		#Default: [minecraft:logs]
+		minecraft_logs_tags = ["minecraft:logs"]
+		#Config on crafting level requirement for bamboo materials
+		#Default: 1
+		minecraft_bamboo_level = 1
+		#Config on crafting experience yield for bamboo materials
+		#Default: 0.5
+		minecraft_bamboo_xp = 0.5
+		#Default: []
+		minecraft_bamboo_tags = [""]
+		#Config on crafting level requirement for planks materials
+		#Default: 1
+		minecraft_planks_level = 1
+		#Config on crafting experience yield for planks materials
+		#Default: 1.0
+		minecraft_planks_xp = 1.0
+		#Default: [minecraft:planks]
+		minecraft_planks_tags = ["minecraft:planks"]
+		#Config on crafting level requirement for stick materials
+		#Default: 1
+		minecraft_stick_level = 1
+		#Config on crafting experience yield for stick materials
+		#Default: 0.25
+		minecraft_stick_xp = 0.25
+		#Default: [c:rods/wooden]
+		minecraft_stick_tags = ["c:rods/wooden"]
+
+	[crafting_config.crafting_stone_materials]
+		#Config on crafting level requirement for slabs materials
+		#Default: 1
+		minecraft_slabs_level = 1
+		#Config on crafting experience yield for slabs materials
+		#Default: 0.0
+		minecraft_slabs_xp = 0.0
+		#Default: [minecraft:slabs]
+		minecraft_slabs_tags = ["minecraft:slabs"]
+		#Config on crafting level requirement for terracotta materials
+		#Default: 4
+		minecraft_terracotta_level = 4
+		#Config on crafting experience yield for terracotta materials
+		#Default: 0.0
+		minecraft_terracotta_xp = 0.0
+		#Default: [minecraft:terracotta]
+		minecraft_terracotta_tags = ["minecraft:terracotta"]
+		#Config on crafting level requirement for stone materials
+		#Default: 5
+		minecraft_stone_level = 5
+		#Config on crafting experience yield for stone materials
+		#Default: 0.0
+		minecraft_stone_xp = 0.0
+		#Default: [c:stones, stone_bricks]
+		minecraft_stone_tags = ["c:stones", "stone_bricks"]
+		#Config on crafting level requirement for cobblestone materials
+		#Default: 5
+		minecraft_cobblestone_level = 5
+		#Config on crafting experience yield for cobblestone materials
+		#Default: 0.0
+		minecraft_cobblestone_xp = 0.0
+		#Default: [c:cobblestones, minecraft:stone_crafting_materials]
+		minecraft_cobblestone_tags = ["c:cobblestones", "minecraft:stone_crafting_materials"]
+
+	[crafting_config.crafting_metal_materials]
+		#Config on crafting level requirement for iron ingot materials
+		#Default: 15
+		minecraft_iron_ingot_level = 15
+		#Config on crafting experience yield for iron ingot materials
+		#Default: 0.0
+		minecraft_iron_ingot_xp = 0.0
+		#Default: [c:ingots/iron]
+		minecraft_iron_ingot_tags = ["c:ingots/iron"]
+		#Config on crafting level requirement for copper ingot materials
+		#Default: 10
+		minecraft_copper_ingot_level = 10
+		#Config on crafting experience yield for copper ingot materials
+		#Default: 0.0
+		minecraft_copper_ingot_xp = 0.0
+		#Default: [c:ingots/copper]
+		minecraft_copper_ingot_tags = ["c:ingots/copper"]
+		#Config on crafting level requirement for gold ingot materials
+		#Default: 20
+		minecraft_gold_ingot_level = 20
+		#Config on crafting experience yield for gold ingot materials
+		#Default: 0.0
+		minecraft_gold_ingot_xp = 0.0
+		#Default: [c:ingots/gold]
+		minecraft_gold_ingot_tags = ["c:ingots/gold"]
+		#Config on crafting level requirement for netherite ingot materials
+		#Default: 40
+		minecraft_netherite_ingot_level = 40
+		#Config on crafting experience yield for netherite ingot materials
+		#Default: 0.0
+		minecraft_netherite_ingot_xp = 0.0
+		#Default: [c:ingots/netherite]
+		minecraft_netherite_ingot_tags = ["c:ingots/netherite"]
+		#Config on crafting level requirement for netherite scrap materials
+		#Default: 40
+		minecraft_netherite_scrap_level = 40
+		#Config on crafting experience yield for netherite scrap materials
+		#Default: 0.0
+		minecraft_netherite_scrap_xp = 0.0
+		#Default: [c:ingots/netherite]
+		minecraft_netherite_scrap_tags = ["c:ingots/netherite"]
+
+	[crafting_config.crafting_misc_materials]
+		#Config on crafting level requirement for wheat materials
+		#Default: 1
+		minecraft_wheat_level = 1
+		#Config on crafting experience yield for wheat materials
+		#Default: 1.0
+		minecraft_wheat_xp = 1.0
+		#Default: [c:crops]
+		minecraft_wheat_tags = ["c:crops"]
+		#Config on crafting level requirement for feather materials
+		#Default: 1
+		minecraft_feather_level = 1
+		#Config on crafting experience yield for feather materials
+		#Default: 0.0
+		minecraft_feather_xp = 0.0
+		#Default: [c:feathers]
+		minecraft_feather_tags = ["c:feathers"]
+		#Config on crafting level requirement for coal block materials
+		#Default: 3
+		minecraft_coal_block_level = 3
+		#Config on crafting experience yield for coal block materials
+		#Default: 0.0
+		minecraft_coal_block_xp = 0.0
+		#Default: [minecraft:coals]
+		minecraft_coal_block_tags = ["minecraft:coals"]
+		#Config on crafting level requirement for flint materials
+		#Default: 7
+		minecraft_flint_level = 7
+		#Config on crafting experience yield for flint materials
+		#Default: 0.0
+		minecraft_flint_xp = 0.0
+		#Default: []
+		minecraft_flint_tags = []
+		#Config on crafting level requirement for redstone materials
+		#Default: 13
+		minecraft_redstone_level = 13
+		#Config on crafting experience yield for redstone materials
+		#Default: 0.0
+		minecraft_redstone_xp = 0.0
+		#Default: [c:dusts/redstone]
+		minecraft_redstone_tags = ["c:dusts/redstone"]
+		#Config on crafting level requirement for iron rod materials
+		#Default: 15
+		iron_rod_iron_rod_level = 15
+		#Config on crafting experience yield for iron rod materials
+		#Default: 0.0
+		iron_rod_iron_rod_xp = 0.0
+		#Default: [c:rods/iron]
+		iron_rod_iron_rod_tags = ["c:rods/iron"]
+		#Config on crafting level requirement for blaze rod materials
+		#Default: 20
+		blaze_rod_blaze_rod_level = 20
+		#Config on crafting experience yield for blaze rod materials
+		#Default: 0.0
+		blaze_rod_blaze_rod_xp = 0.0
+		#Default: [c:rods/blaze]
+		blaze_rod_blaze_rod_tags = ["c:rods/blaze"]
+		#Config on crafting level requirement for blaze powder materials
+		#Default: 20
+		blaze_powder_blaze_powder_level = 20
+		#Config on crafting experience yield for blaze powder materials
+		#Default: 0.0
+		blaze_powder_blaze_powder_xp = 0.0
+		#Default: []
+		blaze_powder_blaze_powder_tags = []
+
+	[crafting_config.crafting_gem_materials]
+		#Config on crafting level requirement for bort materials
+		#Default: 15
+		silentgear_bort_level = 15
+		#Config on crafting experience yield for bort materials
+		#Default: 0.0
+		silentgear_bort_xp = 0.0
+		#Default: [c:gems/bort]
+		silentgear_bort_tags = ["c:gems/bort"]
+		#Config on crafting level requirement for quartz materials
+		#Default: 18
+		minecraft_quartz_level = 18
+		#Config on crafting experience yield for quartz materials
+		#Default: 20.0
+		minecraft_quartz_xp = 20.0
+		#Default: [c:gems/quartz]
+		minecraft_quartz_tags = ["c:gems/quartz"]
+		#Config on crafting level requirement for quartz materials
+		#Default: 18
+		quartz_quartz_level = 18
+		#Config on crafting experience yield for quartz materials
+		#Default: 0.0
+		quartz_quartz_xp = 0.0
+		#Default: []
+		quartz_quartz_tags = []
+		#Config on crafting level requirement for diamond materials
+		#Default: 30
+		minecraft_diamond_level = 30
+		#Config on crafting experience yield for diamond materials
+		#Default: 0.0
+		minecraft_diamond_xp = 0.0
+		#Default: [c:gems/diamond]
+		minecraft_diamond_tags = ["c:gems/diamond"]
+		#Config on crafting level requirement for emerald materials
+		#Default: 32
+		minecraft_emerald_level = 32
+		#Config on crafting experience yield for emerald materials
+		#Default: 0.0
+		minecraft_emerald_xp = 0.0
+		#Default: [c:gems/emerald]
+		minecraft_emerald_tags = ["c:gems/emerald"]
+
+	[crafting_config.crafting_iceandfire]
+		#Config on crafting level requirement for witherbone materials
+		#Default: 15
+		iceandfire_witherbone_level = 15
+		#Config on crafting experience yield for witherbone materials
+		#Default: 0.0
+		iceandfire_witherbone_xp = 0.0
+		#Default: []
+		iceandfire_witherbone_tags = []
+		#Config on crafting level requirement for dragonbone materials
+		#Default: 20
+		iceandfire_dragonbone_level = 20
+		#Config on crafting experience yield for dragonbone materials
+		#Default: 0.0
+		iceandfire_dragonbone_xp = 0.0
+		#Default: []
+		iceandfire_dragonbone_tags = []
+		#Config on crafting level requirement for serperentscales materials
+		#Default: 20
+		iceandfire_serperentscales_level = 20
+		#Config on crafting experience yield for serperentscales materials
+		#Default: 0.0
+		iceandfire_serperentscales_xp = 0.0
+		#Default: [iceandfire:scales/sea_serpent]
+		iceandfire_serperentscales_tags = ["iceandfire:scales/sea_serpent"]
+		#Config on crafting level requirement for dragonscales materials
+		#Default: 25
+		iceandfire_dragonscales_level = 25
+		#Config on crafting experience yield for dragonscales materials
+		#Default: 0.0
+		iceandfire_dragonscales_xp = 0.0
+		#Default: [iceandfire:scales/dragon]
+		iceandfire_dragonscales_tags = ["iceandfire:scales/dragon"]
+		#Config on crafting level requirement for dragonsteel fire ingot materials
+		#Default: 45
+		iceandfire_dragonsteel_fire_ingot_level = 45
+		#Config on crafting experience yield for dragonsteel fire ingot materials
+		#Default: 0.0
+		iceandfire_dragonsteel_fire_ingot_xp = 0.0
+		#Default: []
+		iceandfire_dragonsteel_fire_ingot_tags = []
+		#Config on crafting level requirement for dragonsteel ice ingot materials
+		#Default: 45
+		iceandfire_dragonsteel_ice_ingot_level = 45
+		#Config on crafting experience yield for dragonsteel ice ingot materials
+		#Default: 0.0
+		iceandfire_dragonsteel_ice_ingot_xp = 0.0
+		#Default: []
+		iceandfire_dragonsteel_ice_ingot_tags = []
+		#Config on crafting level requirement for dragonsteel lightning ingot materials
+		#Default: 45
+		iceandfire_dragonsteel_lightning_ingot_level = 45
+		#Config on crafting experience yield for dragonsteel lightning ingot materials
+		#Default: 0.0
+		iceandfire_dragonsteel_lightning_ingot_xp = 0.0
+		#Default: []
+		iceandfire_dragonsteel_lightning_ingot_tags = []
+
+	[crafting_config.crafting_create]
+		#Config on crafting level requirement for zinc ingot materials
+		#Default: 12
+		create_zinc_ingot_level = 12
+		#Config on crafting experience yield for zinc ingot materials
+		#Default: 0.0
+		create_zinc_ingot_xp = 0.0
+		#Default: [c:ingots/zinc]
+		create_zinc_ingot_tags = ["c:ingots/zinc"]
+
+#Settings for Mining
+[mining_config]
+
+	[mining_config.mining_stone_ores]
+		#Config on mining level requirement for stone.
+		#Default: 1
+		minecraft_stone_level = 1
+		#Config on mining experience yield for stone.
+		#Default: 0.0
+		minecraft_stone_xp = 0.0
+		#Default: [minecraft:stones, end_stones, c:cobblestones, c:stones]
+		minecraft_stone_tags = ["minecraft:stones", "end_stones", "c:cobblestones", "c:stones"]
+		#Config on mining level requirement for stone bricks.
+		#Default: 2
+		minecraft_stone_bricks_level = 2
+		#Config on mining experience yield for stone bricks.
+		#Default: 0.0
+		minecraft_stone_bricks_xp = 0.0
+		#Default: [minecraft:stone_bricks]
+		minecraft_stone_bricks_tags = ["minecraft:stone_bricks"]
+		#Config on mining level requirement for terracotta.
+		#Default: 4
+		minecraft_terracotta_level = 4
+		#Config on mining experience yield for terracotta.
+		#Default: 0.0
+		minecraft_terracotta_xp = 0.0
+		#Default: [minecraft:terracotta]
+		minecraft_terracotta_tags = ["minecraft:terracotta"]
+
+	[mining_config.mining_metal_ores]
+		#Config on mining level requirement for zinc.
+		#Default: 12
+		zinc_zinc_level = 12
+		#Config on mining experience yield for zinc.
+		#Default: 0.0
+		zinc_zinc_xp = 0.0
+		#Default: [c:ores/zinc]
+		zinc_zinc_tags = ["c:ores/zinc"]
+		#Config on mining level requirement for iron ore.
+		#Default: 15
+		minecraft_iron_ore_level = 15
+		#Config on mining experience yield for iron ore.
+		#Default: 0.0
+		minecraft_iron_ore_xp = 0.0
+		#Default: [minecraft:iron_ores]
+		minecraft_iron_ore_tags = ["minecraft:iron_ores"]
+		#Config on mining level requirement for copper ore.
+		#Default: 10
+		minecraft_copper_ore_level = 10
+		#Config on mining experience yield for copper ore.
+		#Default: 0.0
+		minecraft_copper_ore_xp = 0.0
+		#Default: [minecraft:copper_ores]
+		minecraft_copper_ore_tags = ["minecraft:copper_ores"]
+		#Config on mining level requirement for gold ore.
+		#Default: 20
+		minecraft_gold_ore_level = 20
+		#Config on mining experience yield for gold ore.
+		#Default: 0.0
+		minecraft_gold_ore_xp = 0.0
+		#Default: [minecraft:gold_ores]
+		minecraft_gold_ore_tags = ["minecraft:gold_ores"]
+		#Config on mining level requirement for ancient debris.
+		#Default: 40
+		minecraft_ancient_debris_level = 40
+		#Config on mining experience yield for ancient debris.
+		#Default: 0.0
+		minecraft_ancient_debris_xp = 0.0
+		#Default: [c:ores/netherite_scrap]
+		minecraft_ancient_debris_tags = ["c:ores/netherite_scrap"]
+
+	[mining_config.mining_gem_ores]
+		#Config on mining level requirement for lapis ore.
+		#Default: 16
+		minecraft_lapis_ore_level = 16
+		#Config on mining experience yield for lapis ore.
+		#Default: 0.0
+		minecraft_lapis_ore_xp = 0.0
+		#Default: [minecraft:lapis_ores]
+		minecraft_lapis_ore_tags = ["minecraft:lapis_ores"]
+		#Config on mining level requirement for diamond ore.
+		#Default: 30
+		minecraft_diamond_ore_level = 30
+		#Config on mining experience yield for diamond ore.
+		#Default: 0.0
+		minecraft_diamond_ore_xp = 0.0
+		#Default: [minecraft:diamond_ores]
+		minecraft_diamond_ore_tags = ["minecraft:diamond_ores"]
+		#Config on mining level requirement for emerald ore.
+		#Default: 35
+		minecraft_emerald_ore_level = 35
+		#Config on mining experience yield for emerald ore.
+		#Default: 0.0
+		minecraft_emerald_ore_xp = 0.0
+		#Default: [minecraft:emerald_ores]
+		minecraft_emerald_ore_tags = ["minecraft:emerald_ores"]
+
+	[mining_config.mining_misc_ores]
+		#Config on mining level requirement for coal ore.
+		#Default: 3
+		minecraft_coal_ore_level = 3
+		#Config on mining experience yield for coal ore.
+		#Default: 0.0
+		minecraft_coal_ore_xp = 0.0
+		#Default: [minecraft:coal_ores]
+		minecraft_coal_ore_tags = ["minecraft:coal_ores"]
+		#Config on mining level requirement for redstone ore.
+		#Default: 13
+		minecraft_redstone_ore_level = 13
+		#Config on mining experience yield for redstone ore.
+		#Default: 0.0
+		minecraft_redstone_ore_xp = 0.0
+		#Default: [minecraft:redstone_ores]
+		minecraft_redstone_ore_tags = ["minecraft:redstone_ores"]
+		#Config on mining level requirement for nether quartz ore.
+		#Default: 18
+		minecraft_nether_quartz_ore_level = 18
+		#Config on mining experience yield for nether quartz ore.
+		#Default: 0.0
+		minecraft_nether_quartz_ore_xp = 0.0
+		#Default: [c:ores/quartz]
+		minecraft_nether_quartz_ore_tags = ["c:ores/quartz"]
+
+	[mining_config.mining_iceandfire]
+		#Config on mining level requirement for silver ore.
+		#Default: 12
+		iceandfire_silver_ore_level = 12
+		#Config on mining experience yield for silver ore.
+		#Default: 0.0
+		iceandfire_silver_ore_xp = 0.0
+		#Default: []
+		iceandfire_silver_ore_tags = []
+		#Config on mining level requirement for deepslate silver ore.
+		#Default: 12
+		iceandfire_deepslate_silver_ore_level = 12
+		#Config on mining experience yield for deepslate silver ore.
+		#Default: 0.0
+		iceandfire_deepslate_silver_ore_xp = 0.0
+		#Default: []
+		iceandfire_deepslate_silver_ore_tags = []
+		#Config on mining level requirement for sapphire ore.
+		#Default: 15
+		iceandfire_sapphire_ore_level = 15
+		#Config on mining experience yield for sapphire ore.
+		#Default: 0.0
+		iceandfire_sapphire_ore_xp = 0.0
+		#Default: []
+		iceandfire_sapphire_ore_tags = []
+
+	[mining_config.mining_create]
+		#Config on mining level requirement for zinc ore.
+		#Default: 12
+		create_zinc_ore_level = 12
+		#Config on mining experience yield for zinc ore.
+		#Default: 0.0
+		create_zinc_ore_xp = 0.0
+		#Default: [c:ores/zinc]
+		create_zinc_ore_tags = ["c:ores/zinc"]
+
+#Settings for Smelting
+[smelting_config]
+
+	[smelting_config.smelting_food]
+		#Config on smelting level requirement for Dried kelp.
+		#Default: 1
+		minecraft_dried_kelp_level = 1
+		#Config on smelting experience yield for Dried kelp.
+		#Default: 0.0
+		minecraft_dried_kelp_xp = 0.0
+		#Default: minecraft:kelp
+		minecraft_dried_kelp_raw = "minecraft:kelp"
+		#Config on smelting level requirement for Cooked salmon.
+		#Default: 1
+		minecraft_cooked_salmon_level = 1
+		#Config on smelting experience yield for Cooked salmon.
+		#Default: 0.0
+		minecraft_cooked_salmon_xp = 0.0
+		#Default: minecraft:salmon
+		minecraft_cooked_salmon_raw = "minecraft:salmon"
+		#Config on smelting level requirement for Cooked cod.
+		#Default: 1
+		minecraft_cooked_cod_level = 1
+		#Config on smelting experience yield for Cooked cod.
+		#Default: 0.0
+		minecraft_cooked_cod_xp = 0.0
+		#Default: minecraft:cod
+		minecraft_cooked_cod_raw = "minecraft:cod"
+		#Config on smelting level requirement for Baked potato.
+		#Default: 1
+		minecraft_baked_potato_level = 1
+		#Config on smelting experience yield for Baked potato.
+		#Default: 0.0
+		minecraft_baked_potato_xp = 0.0
+		#Default: minecraft:potato
+		minecraft_baked_potato_raw = "minecraft:potato"
+		#Config on smelting level requirement for Cooked beef.
+		#Default: 1
+		minecraft_cooked_beef_level = 1
+		#Config on smelting experience yield for Cooked beef.
+		#Default: 0.0
+		minecraft_cooked_beef_xp = 0.0
+		#Default: minecraft:beef
+		minecraft_cooked_beef_raw = "minecraft:beef"
+		#Config on smelting level requirement for Cooked mutton.
+		#Default: 1
+		minecraft_cooked_mutton_level = 1
+		#Config on smelting experience yield for Cooked mutton.
+		#Default: 0.0
+		minecraft_cooked_mutton_xp = 0.0
+		#Default: minecraft:mutton
+		minecraft_cooked_mutton_raw = "minecraft:mutton"
+		#Config on smelting level requirement for Cooked porkchop.
+		#Default: 1
+		minecraft_cooked_porkchop_level = 1
+		#Config on smelting experience yield for Cooked porkchop.
+		#Default: 0.0
+		minecraft_cooked_porkchop_xp = 0.0
+		#Default: minecraft:porkchop
+		minecraft_cooked_porkchop_raw = "minecraft:porkchop"
+		#Config on smelting level requirement for Cooked chicken.
+		#Default: 1
+		minecraft_cooked_chicken_level = 1
+		#Config on smelting experience yield for Cooked chicken.
+		#Default: 0.0
+		minecraft_cooked_chicken_xp = 0.0
+		#Default: minecraft:chicken
+		minecraft_cooked_chicken_raw = "minecraft:chicken"
+		#Config on smelting level requirement for Cooked rabbit.
+		#Default: 1
+		minecraft_cooked_rabbit_level = 1
+		#Config on smelting experience yield for Cooked rabbit.
+		#Default: 0.0
+		minecraft_cooked_rabbit_xp = 0.0
+		#Default: minecraft:rabbit
+		minecraft_cooked_rabbit_raw = "minecraft:rabbit"
+
+	[smelting_config.smelting_metals]
+		#Config on smelting level requirement for Copper ingot.
+		#Default: 10
+		minecraft_copper_ingot_level = 10
+		#Config on smelting experience yield for Copper ingot.
+		#Default: 0.0
+		minecraft_copper_ingot_xp = 0.0
+		#Default: minecraft:raw_copper
+		minecraft_copper_ingot_raw = "minecraft:raw_copper"
+		#Config on smelting level requirement for Silver ingot.
+		#Default: 12
+		iceandfire_silver_ingot_level = 12
+		#Config on smelting experience yield for Silver ingot.
+		#Default: 0.0
+		iceandfire_silver_ingot_xp = 0.0
+		#Default: iceandfire:raw_silver
+		iceandfire_silver_ingot_raw = "iceandfire:raw_silver"
+		#Config on smelting level requirement for Iron ingot.
+		#Default: 15
+		minecraft_iron_ingot_level = 15
+		#Config on smelting experience yield for Iron ingot.
+		#Default: 0.0
+		minecraft_iron_ingot_xp = 0.0
+		#Default: minecraft:raw_iron
+		minecraft_iron_ingot_raw = "minecraft:raw_iron"
+		#Config on smelting level requirement for Gold ingot.
+		#Default: 25
+		minecraft_gold_ingot_level = 25
+		#Config on smelting experience yield for Gold ingot.
+		#Default: 0.0
+		minecraft_gold_ingot_xp = 0.0
+		#Default: minecraft:gilded_blackstone
+		minecraft_gold_ingot_raw = "minecraft:gilded_blackstone"
+		#Config on smelting level requirement for Diamond.
+		#Default: 30
+		minecraft_diamond_level = 30
+		#Config on smelting experience yield for Diamond.
+		#Default: 0.0
+		minecraft_diamond_xp = 0.0
+		#Default: minecraft:diamond_ore
+		minecraft_diamond_raw = "minecraft:diamond_ore"
+		#Config on smelting level requirement for Netherite scrap.
+		#Default: 40
+		minecraft_netherite_scrap_level = 40
+		#Config on smelting experience yield for Netherite scrap.
+		#Default: 0.0
+		minecraft_netherite_scrap_xp = 0.0
+		#Default: minecraft:ancient_debris
+		minecraft_netherite_scrap_raw = "minecraft:ancient_debris"
+
+	[smelting_config.smelting_general]
+		#Config on smelting level requirement for Charcoal.
+		#Default: 1
+		minecraft_charcoal_level = 1
+		#Config on smelting experience yield for Charcoal.
+		#Default: 0.0
+		minecraft_charcoal_xp = 0.0
+		#Default: minecraft:oak_logs
+		minecraft_charcoal_raw = "minecraft:oak_logs"
+		#Config on smelting level requirement for Glass.
+		#Default: 2
+		minecraft_glass_level = 2
+		#Config on smelting experience yield for Glass.
+		#Default: 0.0
+		minecraft_glass_xp = 0.0
+		#Default: minecraft:sand
+		minecraft_glass_raw = "minecraft:sand"
+		#Config on smelting level requirement for Bricks.
+		#Default: 3
+		minecraft_bricks_level = 3
+		#Config on smelting experience yield for Bricks.
+		#Default: 0.0
+		minecraft_bricks_xp = 0.0
+		#Default: minecraft:clay_ball
+		minecraft_bricks_raw = "minecraft:clay_ball"
+		#Config on smelting level requirement for Stone.
+		#Default: 5
+		minecraft_stone_level = 5
+		#Config on smelting experience yield for Stone.
+		#Default: 0.0
+		minecraft_stone_xp = 0.0
+		#Default: minecraft:cobblestone
+		minecraft_stone_raw = "minecraft:cobblestone"
+		#Config on smelting level requirement for Smooth stone.
+		#Default: 8
+		minecraft_smooth_stone_level = 8
+		#Config on smelting experience yield for Smooth stone.
+		#Default: 0.0
+		minecraft_smooth_stone_xp = 0.0
+		#Default: minecraft:stone
+		minecraft_smooth_stone_raw = "minecraft:stone"
+		#Config on smelting level requirement for Redstone.
+		#Default: 13
+		minecraft_redstone_level = 13
+		#Config on smelting experience yield for Redstone.
+		#Default: 0.0
+		minecraft_redstone_xp = 0.0
+		#Default: minecraft:deepslate_redstone_ore
+		minecraft_redstone_raw = "minecraft:deepslate_redstone_ore"
+		#Config on smelting level requirement for Lapis lazuli.
+		#Default: 16
+		minecraft_lapis_lazuli_level = 16
+		#Config on smelting experience yield for Lapis lazuli.
+		#Default: 0.0
+		minecraft_lapis_lazuli_xp = 0.0
+		#Default: minecraft:lapis_ore
+		minecraft_lapis_lazuli_raw = "minecraft:lapis_ore"
+		#Config on smelting level requirement for Quartz.
+		#Default: 18
+		minecraft_quartz_level = 18
+		#Config on smelting experience yield for Quartz.
+		#Default: 0.0
+		minecraft_quartz_xp = 0.0
+		#Default: minecraft:nether_quartz_ore
+		minecraft_quartz_raw = "minecraft:nether_quartz_ore"
+
+	[smelting_config.smelting_create]
+		#Config on smelting level requirement for Zinc ingot.
+		#Default: 12
+		create_zinc_ingot_level = 12
+		#Config on smelting experience yield for Zinc ingot.
+		#Default: 0.0
+		create_zinc_ingot_xp = 0.0
+		#Default: create:raw_zinc
+		create_zinc_ingot_raw = "create:raw_zinc"

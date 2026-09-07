@@ -1,0 +1,2016 @@
+{
+  "export": {
+    "filesSelection": [
+      {
+        "path": ".cache",
+        "isSelected": false
+      },
+      {
+        "path": ".cache\\dynamic_fps",
+        "isSelected": false
+      },
+      {
+        "path": ".curseclient",
+        "isSelected": false
+      },
+      {
+        "path": "command_history.txt",
+        "isSelected": false
+      },
+      {
+        "path": "config",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ambientsounds-client.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\appleskin-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\better-advanced-tooltips-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\bettercombat",
+        "isSelected": true
+      },
+      {
+        "path": "config\\bettercombat\\client.json5",
+        "isSelected": true
+      },
+      {
+        "path": "config\\bettercombat\\fallback_compatibility.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\bettercombat\\server.json5",
+        "isSelected": true
+      },
+      {
+        "path": "config\\bettercombat\\weapon_trails.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\chat_heads.json5",
+        "isSelected": true
+      },
+      {
+        "path": "config\\copycats-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\copycats-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\create-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\create-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\creativecore-client.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\cristellib",
+        "isSelected": true
+      },
+      {
+        "path": "config\\cristellib\\auto_config_settings.json5",
+        "isSelected": true
+      },
+      {
+        "path": "config\\cristellib\\built_in_packs.json5",
+        "isSelected": true
+      },
+      {
+        "path": "config\\cristellib\\iceandfire",
+        "isSelected": true
+      },
+      {
+        "path": "config\\cristellib\\iceandfire\\structure_placement_config.json5",
+        "isSelected": true
+      },
+      {
+        "path": "config\\cristellib\\iceandfire\\structure_toggle_config.json5",
+        "isSelected": true
+      },
+      {
+        "path": "config\\crosshairs",
+        "isSelected": true
+      },
+      {
+        "path": "config\\curios-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\curios-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\dynamic_fps.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\dynamiccrosshair.json5",
+        "isSelected": true
+      },
+      {
+        "path": "config\\embeddium-fingerprint.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\embeddium-mixins.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\embeddium-options.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\entity_model_features.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\entity_texture_features.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\entityculling.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\etf_warnings.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\farmersdelight-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\farmersdelight-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\flywheel-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\fml.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\fzzy_config",
+        "isSelected": true
+      },
+      {
+        "path": "config\\fzzy_config\\keybinds.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\iceandfire",
+        "isSelected": true
+      },
+      {
+        "path": "config\\iceandfire\\iaf-client.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\iceandfire\\iaf-common.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\immediatelyfast.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\immersive_furniture.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\iris-excluded.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\iris.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jade",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jade\\hide-blocks.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jade\\hide-entities.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jade\\jade.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jade\\plugins.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jade\\sort-order.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\blacklist.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\ingredient-list-mod-sort-order.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\ingredient-list-type-sort-order.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\jei-client.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\jei-colors.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\jei-debug.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\jei-mod-id-format.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\recipe-category-sort-order.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\world",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\world\\server",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\world\\server\\Minecraft Server (192_168_0_6 25566)",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\world\\server\\Minecraft Server (192_168_0_6 25566)\\bookmarks.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\world\\server\\Minecraft Server (192_168_0_6 25566)\\lookupHistory.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\world\\server\\Minecraft Server (192_168_0_7 25566)",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\world\\server\\Minecraft Server (simmons-incorrectly_tun_ply_gg)",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jupiter.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\lambdynlights.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\midnightlib.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\moreculling.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\naturalist-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\naturalist-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\neoforge-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\neoforge-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\oculus.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ponder-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\raynnarpg-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\raynnarpg-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sereneseasons",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sereneseasons\\fertility.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sereneseasons\\seasons.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\skinlayers.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sodium-fingerprint.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sodium-mixins.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sodium-options.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sophisticatedbackpacks-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sophisticatedcore-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sophisticatedcore-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sound_physics_remastered",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sound_physics_remastered\\allowed_sounds.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sound_physics_remastered\\occlusion.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sound_physics_remastered\\reflectivity.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sound_physics_remastered\\soundphysics.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\subtle_effects",
+        "isSelected": true
+      },
+      {
+        "path": "config\\subtle_effects\\blocks.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\subtle_effects\\entities.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\subtle_effects\\environment.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\subtle_effects\\general.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\subtle_effects\\items.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\terrablender.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\towns_and_towers",
+        "isSelected": true
+      },
+      {
+        "path": "config\\towns_and_towers\\structure_enable_or_disable_new.json5",
+        "isSelected": true
+      },
+      {
+        "path": "config\\towns_and_towers\\structure_rarity_new.json5",
+        "isSelected": true
+      },
+      {
+        "path": "config\\transition.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\treechop-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\treechop-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\trender.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\tyzs_skills-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\tyzs_skills-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\vanilla_structures",
+        "isSelected": true
+      },
+      {
+        "path": "config\\vanilla_structures\\placement_structure_config.json5",
+        "isSelected": true
+      },
+      {
+        "path": "config\\vanilla_structures\\toggle_structure_config.json5",
+        "isSelected": true
+      },
+      {
+        "path": "config\\voicechat",
+        "isSelected": true
+      },
+      {
+        "path": "config\\voicechat\\category-volumes.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\voicechat\\player-volumes.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\voicechat\\translations.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\voicechat\\username-cache.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\voicechat\\voicechat-client.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\voicechat\\voicechat-server.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\waystones-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib\\client.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib\\common.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib\\profiles",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib\\profiles\\default.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib\\server_profiles",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\lib\\server_profiles\\default.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\client.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\common.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\default_radar_categories_client.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\default_radar_categories_server.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\profiles",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\profiles\\default.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\profiles\\entity_radar_categories",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\profiles\\entity_radar_categories\\default.cfg.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\profiles\\info_display_config",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\profiles\\info_display_config\\default.cfg.txt",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\server_profiles",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\server_profiles\\default.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map\\client.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map\\common.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map\\profiles",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map\\profiles\\default.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map\\server_profiles",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\world-map\\server_profiles\\default.cfg",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaerohud.txt",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaeropatreon.txt",
+        "isSelected": true
+      },
+      {
+        "path": "crash-reports",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-08-25_23.27.25-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-08-25_23.46.36-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-08-25_23.50.30-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-08-25_23.54.19-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-08-25_23.55.53-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "datapacks",
+        "isSelected": true
+      },
+      {
+        "path": "debug",
+        "isSelected": false
+      },
+      {
+        "path": "debug\\disconnect-2026-09-03_00.29.38-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "defaultconfigs",
+        "isSelected": false
+      },
+      {
+        "path": "downloads",
+        "isSelected": false
+      },
+      {
+        "path": "downloads\\log.json",
+        "isSelected": false
+      },
+      {
+        "path": "imgui.ini",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\assets",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\assets\\kubejs",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\block",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\block\\example_block.png",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\item",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\example_item.png",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\client_scripts",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\client_scripts\\main.js",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\config",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\config\\client.json",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\config\\common.json",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\config\\web_server.json",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\data",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\README.txt",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\startup_scripts",
+        "isSelected": false
+      },
+      {
+        "path": "kubejs\\startup_scripts\\main.js",
+        "isSelected": false
+      },
+      {
+        "path": "local",
+        "isSelected": false
+      },
+      {
+        "path": "local\\kubejs",
+        "isSelected": false
+      },
+      {
+        "path": "local\\kubejs\\dev.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\kubejs\\export",
+        "isSelected": false
+      },
+      {
+        "path": "local\\kubejs\\exported_packs",
+        "isSelected": false
+      },
+      {
+        "path": "local\\kubejs\\local_server_scripts",
+        "isSelected": false
+      },
+      {
+        "path": "local\\kubejs\\local_startup_scripts",
+        "isSelected": false
+      },
+      {
+        "path": "logs",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-25-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-25-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-25-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-25-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-25-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-25-6.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-25-7.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-25-8.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-26-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-26-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-26-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-26-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-26-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-26-6.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-27-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-27-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-29-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-29-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-31-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-08-31-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-09-01-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-09-01-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-09-01-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-09-01-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-09-02-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-09-02-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-09-03-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-09-03-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-09-03-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\debug-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\debug-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\debug-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\debug-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\debug-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\debug.log",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\instance_audit.txt",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\kubejs",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\kubejs\\client.log",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\kubejs\\server.log",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\kubejs\\startup.log",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\latest.log",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\stdout-logs.txt",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry",
+        "isSelected": false
+      },
+      {
+        "path": "minecraftinstance.json",
+        "isSelected": false
+      },
+      {
+        "path": "mods",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\appleskin-neoforge-mc1.21-3.0.9.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\architectury-13.0.11-neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\balm-neoforge-1.21.1-21.0.65.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\bellsandwhistles-0.4.7-1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\better-advanced-tooltips-2101.1.0-build.5.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\bettercombat-neoforge-2.4.0+1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\chat_heads-0.15.7-neoforge-1.21.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\cloth-config-15.0.140-neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\copycats-3.0.8+mc.1.21.1-neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\create-1.21.1-6.0.10.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\createdeco-2.1.3.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\CreativeCore_NEOFORGE_v2.13.44_mc1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\cristellib-neoforge-1.21.1-3.1.7.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\curios-neoforge-9.5.1+1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\dynamiccrosshair-9.11+1.21.1-neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\embeddium-1.0.15+mc1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\entity_model_features-3.3.5-1.21-neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\entity_texture_features-7.2.1-1.21-neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\entityculling-neoforge-1.10.5-mc1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\FarmersDelight-1.21.1-1.3.4.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\fzzy_config-0.7.6+1.21+neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\geckolib-neoforge-1.21.1-4.9.2.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\handcrafted-neoforge-1.21.1-4.0.3.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\iceandfire-2.1.2.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\ImmediatelyFast-NeoForge-1.6.13+1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\immersive_furniture-neoforge-0.3.3+1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\Jade-1.21.1-NeoForge-15.10.6.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\jei-1.21.1-neoforge-19.52.0.422.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\jupiter-2.3.7-1.21.1-neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\kotlinforforge-5.12.0-all.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\lambdynamiclights-4.8.11+1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\midnightlib-neoforge-1.9.3+1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\moreculling-neoforge-1.21.1-1.0.9.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\naturalist-2.0.3-neoforge-1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\neoculus-mc1.21.1-1.8.7.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\player-animation-lib-forge-2.0.4+1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\raynnarpg-1.6.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\resourcefullib-neoforge-1.21-3.0.12.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\rhino-2101.2.8-build.91.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\skinlayers3d-neoforge-1.11.2-mc1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\sophisticatedbackpacks-1.21.1-3.25.78.2107.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\sophisticatedcore-1.21.1-1.4.90.2299.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\SubtleEffects-neoforge-1.21.1-1.14.3.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\t_and_t-fabric-neoforge-1.13.11.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\TreeChop-1.21.1-neoforge-0.19.3.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\Tyz's skills 6.4.2 - 1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\uranus-2.4.1-bugfix-1.21.1-neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\voicechat-neoforge-1.21.1-2.6.22.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\waystones-neoforge-1.21.1-21.1.42.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\xaerominimap-neoforge-1.21.1-26.4.2.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\xaeroworldmap-neoforge-1.21.1-1.45.0.jar",
+        "isSelected": true
+      },
+      {
+        "path": "options.txt",
+        "isSelected": false
+      },
+      {
+        "path": "resourcepacks",
+        "isSelected": true
+      },
+      {
+        "path": "resourcepacks\\-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+        "isSelected": true
+      },
+      {
+        "path": "resourcepacks\\cubic-sun-moon-v1.8.5.zip",
+        "isSelected": true
+      },
+      {
+        "path": "resourcepacks\\FA+All_Extensions-v1.8.1.zip",
+        "isSelected": true
+      },
+      {
+        "path": "resourcepacks\\FA+Player-v1.1.zip",
+        "isSelected": true
+      },
+      {
+        "path": "resourcepacks\\FreshAnimations_v1.10.4.zip",
+        "isSelected": true
+      },
+      {
+        "path": "resourcepacks\\LowOnFire 1.21.3.zip",
+        "isSelected": true
+      },
+      {
+        "path": "resourcepacks\\MandalasGUI+Dakmode_1.21.8_v3.1.zip",
+        "isSelected": true
+      },
+      {
+        "path": "schematics",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2026-08-27_20.07.10.png",
+        "isSelected": false
+      },
+      {
+        "path": "servers.dat",
+        "isSelected": false
+      },
+      {
+        "path": "servers.dat_old",
+        "isSelected": false
+      },
+      {
+        "path": "shaderpacks",
+        "isSelected": true
+      },
+      {
+        "path": "shaderpacks\\ComplementaryReimagined_r5.9.zip",
+        "isSelected": true
+      },
+      {
+        "path": "user-prefs.json",
+        "isSelected": false
+      },
+      {
+        "path": "xaero",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\backup",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_192.168.0.6",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_192.168.0.6\\config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_192.168.0.6\\dim%0",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_192.168.0.6\\dim%0\\mw$1906438100_1.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_192.168.0.7",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_192.168.0.7\\config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_simmons-incorrectly.tun.ply.gg",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_simmons-incorrectly.tun.ply.gg\\config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_simmons-incorrectly.tun.ply.gg\\dim%0",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_simmons-incorrectly.tun.ply.gg\\dim%0\\mw$1906438100_1.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\dimension_config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\.lock",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\0_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\0_-2.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\0_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\1_-2.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\1_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache\\1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache\\1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache\\1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache\\1\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache\\1\\0_-2.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache_1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache_1\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache_1\\0_-2.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache_1\\0_-3.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache_1\\1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache_1\\1_-2.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\cache_1\\1_-3.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\3\\0_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\3\\1_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\3\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\3\\cache_1\\0_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\3\\cache_1\\1_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\4",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\4\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\4\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\4\\0_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\4\\1_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\4\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\4\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\4\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\4\\cache_1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\4\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\4\\cache_1\\0_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\4\\cache_1\\1_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\5",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\5\\0_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\5\\1_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\5\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\5\\cache_1\\0_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\null\\mw$1906438100\\caves\\5\\cache_1\\1_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.6\\server_config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\dimension_config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-1_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-1_1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-1_2.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-2_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-2_-2.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-2_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-2_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-2_1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-2_2.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-3_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-3_-2.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\-3_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\.lock",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\0_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\0_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\0_1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\0_2.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\1_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\1\\-1_-2.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\1\\-1_1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\1\\-2_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\1\\-2_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\1\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\1\\0_-2.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\1\\0_1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\2",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\2\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\2\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\2\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\2\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\3\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\3\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\3\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache\\3\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-1_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-1_1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-1_2.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-2_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-2_-2.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-2_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-2_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-2_1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-2_2.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-3_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-3_-2.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\-3_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\0_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\0_1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\0_2.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\cache_1\\1_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\caves",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\caves\\4",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\caves\\4\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\caves\\4\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\caves\\4\\cache_1\\-1_0.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\caves\\5",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\caves\\5\\0_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\caves\\5\\1_-3.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\caves\\5\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\caves\\5\\cache_1\\0_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\null\\mw$1906438100\\caves\\5\\cache_1\\1_-3.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_192.168.0.7\\server_config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn\\dimension_config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn\\mw$1906438100",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn\\mw$1906438100\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn\\mw$1906438100\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn\\mw$1906438100\\.lock",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn\\mw$1906438100\\0_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn\\mw$1906438100\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn\\mw$1906438100\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn\\mw$1906438100\\cache_1\\-1_-1.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn\\mw$1906438100\\cache_1\\-1_0.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn\\mw$1906438100\\cache_1\\0_-1.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn\\mw$1906438100\\cache_1\\0_0.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\minecraft$spawn\\mw$1906438100\\caves",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\dimension_config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\.lock",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\0_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\cache_1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\cache_1\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\cache_1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\caves",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\caves\\4",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\caves\\4\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\caves\\4\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\caves\\4\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\caves\\4\\cache_1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\null\\mw$1906438100\\caves\\4\\cache_1\\-1_0.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_simmons-incorrectly.tun.ply.gg\\server_config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "XaeroWaypoints_BACKUP240807",
+        "isSelected": false
+      },
+      {
+        "path": "XaeroWaypoints_BACKUP240807\\backup",
+        "isSelected": false
+      }
+    ],
+    "recommendedRam": null,
+    "enableRecommendedRam": false
+  }
+}

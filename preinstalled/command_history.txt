@@ -1,0 +1,50 @@
+/dh hologram create TopClanes
+/dh lines add TopClanes 1 '&6&l=== TOP 10 CLANES HKINGDOM ==='
+/dh lines add TopClanes 1 '&e#1. %simpleclans_top_1_name% &7- &aNivel: %simpleclans_top_1_value%'
+/dh lines add TopClanes 1 '&e#2. %simpleclans_top_2_name% &7- &aNivel: %simpleclans_top_2_value%'
+/dh lines add TopClanes 1 '&e#3. %simpleclans_top_3_name% &7- &aNivel: %simpleclans_top_3_value%'
+/dh hologram movehere TopClanes
+/dh remove TopClanes
+/clan leaderboard
+/dh hologram create ListaClanes
+/dh lines add ListaClanes 1 "&6&l=== TOP CLANES ==="
+/dh line action add ListaClanes 1 1 LEFT CONSOLE clan leaderboard
+/dh lines add TopClanes '&e#1. %simpleclans_topclans_1_clan_name% &7- &aNivel: %simpleclans_topclans_1_clan_level%'
+/dh lines add ListaClanes 1 '&e#1. %simpleclans_topclans_1_clan_name% &7- &aNivel: %simpleclans_topclans_1_clan_level%'
+/dh hologram movehere TopClanes
+/dh hologram movehere ListaClanesClanes
+/dh hologram movehere ListaClanes
+/dh lines add ListaClanes 1 '&e#2. %simpleclans_clan_name% &7- &aNivel: %simpleclans_clan_level%
+/dh lines add ListaClanes 1 '&e#3. %simpleclans_clan_name% &7- &aNivel: %simpleclans_clan_level%
+/dh lines add ListaClanes 1 '&e#4. %simpleclans_clan_leader% &7- &aNivel: %simpleclans_clan_level%
+/dh remove ListaClanes
+/dth create TopClanes
+/dth create TopClanes '&6&l=== TOP 10 CLANES HKINGDOM ==='
+/dth set TopClanes '&e#1. %simpleclans_topclans_1_clan_name% &7- &aNivel: %simpleclans_topclans_1_clan_level%'
+/dth movehere TopClanes
+/dth set TopClanes %simpleclans_clan_name% 10 &6#{rank} &7{player}: &a${value}
+/dth set TopClanes %simpleclans_clan_level% 10 &6#{rank} &7{player}: &a${value}
+/dth set TopClanes %simpleclans_clan_level% 10 &6#{rank} &7{name}: &a${value}
+/dth set TopClanes %simpleclans_clan_level% 10 &6#{rank} &7{simpleclans}: &a${value}
+/dth set TopClanes %simpleclans_clan_level% 10 &6#{rank} &7{player}: &a${value}
+/dth set TopClanes %simpleclans_clan_name% 10 &6#{rank} &7{player}: &a${value}
+/dth set TopClanes %simpleclans_clan_kills% 10 &6#{rank} &7{player}: &a${value}
+/dth set TopClanes %simpleclans_clan_kills% 10 &6#{rank} &7{clan}: &a${value}
+/dth set TopClanes %simpleclans_clan_kills% 10 &6#{rank} &7{player}: &a${value}
+/dth set TopClanes %simpleclans_clan_kills% 10 &6#{rank} &7%simpleclans_topclans_{rank}_clan_name% &7- &a{value}
+/dth set TopClanes %simpleclans_clan_kills% 10 &6#{rank} &7%simpleclans_topclans_name{rank}% &7- &a{value}
+/dth set TopClanes %simpleclans_clan_kills% 10 &6#{rank} &7%simpleclans_clan_name%{rank}% &7- &a{value}
+/dth set TopClanes %simpleclans_clan_kills% 10 &6#{rank} &7%simpleclans_clan_name% &7- &a{value}
+/dth set TopClanes %simpleclans_clan_kills% 3 &6#{rank} &7%simpleclans_clan_name% &7- &a{value}
+/dth set TopClanes %simpleclans_clan_kills% 3 &6#{rank} &6%simpleclans_clan_name% &7- &a{value}
+/dth set TopClanes %simpleclans_clan_kills% 3 &6#{rank} &e&l%simpleclans_clan_name% &7- &a{value}
+/dh reload
+/playtime:onlinetime
+/playtime rewards
+/tab reload
+/tab reload Hummbertwo
+/tab Hummbertwo
+/tabulavista:tab reload
+/tabulavista:tab
+/tabulavista:tab Hummbertwo
+/gamemode survival

@@ -1,0 +1,16 @@
+#Skill Overlay Xp mode
+#Default: BOTH
+#Allowed Values: XP, PERCENT, BOTH
+xp_text_mode = "BOTH"
+#Location for skill overlay
+#Default: CENTER_LEFT
+#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+gui_position = "CENTER_LEFT"
+#Fine adjust the X position for the overlay
+# Default: 10
+# Range: > -2147483648
+x_adjustment = 10
+#Fine adjust the Y position for the overlay
+# Default: 10
+# Range: > -2147483648
+y_adjustment = 10

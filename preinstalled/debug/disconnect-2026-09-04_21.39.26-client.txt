@@ -1,0 +1,292 @@
+---- Minecraft Network Protocol Error Report ----
+// 404
+
+Time: 2026-09-04 21:39:26
+Description: Packet handling error
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(Unknown Source) ~[?:?] {}
+	at java.base/sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?] {}
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar%23155!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar%23155!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23157!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23157!/:4.1.97.Final] {}
+	at java.base/java.lang.Thread.run(Unknown Source) [?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Netty Client IO #1
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketListener.fillCrashReport(PacketListener.java:33) ~[client-1.21.1-20240808.144430-srg.jar%23248!/:?] {re:classloading,re:mixin}
+-- Connection --
+Details:
+	Protocol: configuration
+	Flow: CLIENTBOUND
+	Server type: OTHER
+	Server brand: ~~NULL~~
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketListener.fillCrashReport(PacketListener.java:33) ~[client-1.21.1-20240808.144430-srg.jar%23248!/:?] {re:classloading,re:mixin}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.PacketUtils.fillCrashReport(PacketUtils.java:62) ~[client-1.21.1-20240808.144430-srg.jar%23248!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.ClientCommonPacketListenerImpl.storeDisconnectionReport(ClientCommonPacketListenerImpl.java:130) ~[client-1.21.1-20240808.144430-srg.jar%23248!/:?] {re:mixin,pl:runtimedistcleaner:A,re:computing_frames,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.ClientCommonPacketListenerImpl.createDisconnectionInfo(ClientCommonPacketListenerImpl.java:123) ~[client-1.21.1-20240808.144430-srg.jar%23248!/:?] {re:mixin,pl:runtimedistcleaner:A,re:computing_frames,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.exceptionCaught(Connection.java:157) ~[client-1.21.1-20240808.144430-srg.jar%23248!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23157!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23157!/:4.1.97.Final] {}
+	at java.base/java.lang.Thread.run(Unknown Source) [?:?] {re:mixin}
+
+
+-- Dynamic Lighting --
+Details:
+	Description: This section contains information related to dynamic lighting, this may not be related to your crash.
+	Mode: fancy
+	Dynamic Light Sources: 0
+	Spatial Hash Occupancy: 0 / 1024
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.11, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 729557360 bytes (695 MiB) / 2839543808 bytes (2708 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 6800H with Radeon Graphics         
+	Identifier: AuthenticAMD Family 25 Model 68 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.19
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: AMD Radeon(TM) Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc.
+	Graphics card #0 VRAM (MiB): 512.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.21037.1004
+	Graphics card #1 name: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 4096.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.15.9608
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: Unknown
+	Virtual memory max (MiB): 25843.52
+	Virtual memory used (MiB): 18064.66
+	Swap memory total (MiB): 10240.00
+	Swap memory used (MiB): 60.61
+	Space in storage for jna.tmpdir (MiB): available: 167374.55, total: 487585.59
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 167374.55, total: 487585.59
+	Space in storage for io.netty.native.workdir (MiB): available: 167374.55, total: 487585.59
+	Space in storage for java.io.tmpdir (MiB): available: 167374.55, total: 487585.59
+	Space in storage for workdir (MiB): available: 167374.55, total: 487585.59
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx4096m -Xms256m
+	Loaded Shaderpack: (off)
+	Yumi MC Core: 1.0.0-beta.1+1.21.1
+	Mods: 
+		ambientsounds: AmbientSounds v6.3.8
+		appleskin: AppleSkin v3.0.9+mc1.21
+		architectury: Architectury v13.0.11
+		balm: Balm v21.0.65
+		bellsandwhistles: Create: Bells & Whistles v0.4.7-1.21.1
+		betteradvancedtooltips: Better Advanced Tooltips v2101.1.0-build.5
+		bettercombat: Better Combat v2.4.0+1.21.1
+		chat_heads: Chat Heads v0.15.7
+		cloth_config: Cloth Config v15 API v15.0.140
+		conditional_mixin: conditional mixin v0.6.3
+		copycats: Create: Copycats+ v3.0.8+mc.1.21.1-neoforge
+		create: Create v6.0.10
+		createdeco: Create Deco v2.1.3
+		creativecore: CreativeCore v2.13.44
+		cristellib: Cristel Lib v3.1.7
+		curios: Curios API v9.5.1+1.21.1
+		dynamic_fps: Dynamic FPS v3.11.4
+		dynamiccrosshair: Dynamic Crosshair v9.11
+		dynamiccrosshairapi: Dynamic Crosshair API v1.2
+		embeddium: Embeddium v1.0.15+mc1.21.1
+		entity_model_features: Entity Model Features v3.3.5
+		entity_texture_features: Entity Texture Features v7.2.1
+		entityculling: EntityCulling v1.10.5
+		farmersdelight: Farmer's Delight v1.3.4
+		flywheel: Flywheel v1.0.6
+		forgeconfigapiport: Forge Config API Port v21.1.6
+		fzzy_config: Fzzy Config v0.7.6+1.21+neoforge
+		geckolib: GeckoLib 4 v4.9.2
+		glitchcore: GlitchCore v2.1.0.2
+		handcrafted: Handcrafted v4.0.3
+		iceandfire: Ice And Fire Community Edition v2.1.2
+		immediatelyfast: ImmediatelyFast v1.6.13+1.21.1
+		immersive_furniture: Immersive Furniture v0.3.3+1.21.1
+		integration: Integration v0.2
+		iris: Iris v1.8.7
+		jade: Jade v15.10.6+neoforge
+		jei: Just Enough Items v19.52.0.422
+		jupiter: Jupiter v2.3.7
+		kotlinforforge: Kotlin For Forge v5.12.0
+		kubejs: KubeJS v2101.7.2-build.374
+		kuma_api: KumaAPI v21.0.8
+		lambdynlights: LambDynamicLights v4.8.11+1.21.1
+		lambdynlights_api: LambDynamicLights (API) v4.8.11+1.21.1
+		lambdynlights_runtime: LambDynamicLights (Runtime) v4.8.11+1.21.1
+		libbamboo: LibBamboo v2.25
+		midnightlib: MidnightLib v1.9.3
+		minecraft: Minecraft v1.21.1
+		moreculling: More Culling v1.0.9
+		naturalist: Naturalist v2.0.3
+		neoforge: NeoForge v21.1.248
+		oculus: NeOculus v1.8.7
+		playeranimator: Player Animator v2.0.4+1.21.1
+		ponder: Ponder v1.0.82+mc1.21.1
+		pride: Pride Lib v1.2.4+1.21.1
+		raynnarpg: Raynna's RPG v1.6.1
+		resourcefullib: Resourceful Lib v3.0.12
+		rhino: Rhino v2101.2.8-build.91
+		sablecompanion: Sable Companion v1.5.0
+		scriptedvision: Scripted Vision v1.0
+		sereneseasons: Serene Seasons v10.1.0.3
+		skinlayers3d: 3d-Skin-Layers v1.11.2
+		sophisticatedbackpacks: Sophisticated Backpacks v3.25.78
+		sophisticatedcore: Sophisticated Core v1.4.90
+		sound_physics_remastered: Sound Physics Remastered v1.21.1-1.4.10
+		spruceui: SpruceUI v6.2.5+1.21.1
+		subtle_effects: Subtle Effects v1.14.3
+		t_and_t: Towns and Towers v1.13.11
+		terrablender: TerraBlender v4.1.0.8
+		tiny_config: Tiny Config v3.1.0
+		transition: TRansition v1.0.21
+		treechop: HT's TreeChop v0.19.3
+		trender: TRender v1.0.15
+		tyzs_skills: Tyz's skills v6.4.2
+		uranus: Uranus v2.4.1-bugfix
+		voicechat: Simple Voice Chat v1.21.1-2.6.22
+		voicechat_api: Simple Voice Chat API v2.6.20
+		waystones: Waystones v21.1.42
+		xaerolib: XaeroLib v1.7.1
+		xaerominimap: Xaero's Minimap v26.4.2
+		xaeroworldmap: Xaero's World Map v1.45.0
+		yumi_mc_core: Yumi Minecraft Libraries: Foundation v1.0.0-beta.1+1.21.1
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclient
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.43.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.43.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.43.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		kotlinforforge@5.12.0
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		skinlayers3d-neoforge-1.11.2-mc1.21.1.jar         |3d-Skin-Layers                |skinlayers3d                  |1.11.2              |Manifest: NOSIGNATURE
+		AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar        |AmbientSounds                 |ambientsounds                 |6.3.8               |Manifest: NOSIGNATURE
+		appleskin-neoforge-mc1.21-3.0.9.jar               |AppleSkin                     |appleskin                     |3.0.9+mc1.21        |Manifest: NOSIGNATURE
+		architectury-13.0.11-neoforge.jar                 |Architectury                  |architectury                  |13.0.11             |Manifest: NOSIGNATURE
+		balm-neoforge-1.21.1-21.0.65.jar                  |Balm                          |balm                          |21.0.65             |Manifest: NOSIGNATURE
+		better-advanced-tooltips-2101.1.0-build.5.jar     |Better Advanced Tooltips      |betteradvancedtooltips        |2101.1.0-build.5    |Manifest: NOSIGNATURE
+		bettercombat-neoforge-2.4.0+1.21.1.jar            |Better Combat                 |bettercombat                  |2.4.0+1.21.1        |Manifest: NOSIGNATURE
+		chat_heads-0.15.7-neoforge-1.21.jar               |Chat Heads                    |chat_heads                    |0.15.7              |Manifest: NOSIGNATURE
+		cloth-config-15.0.140-neoforge.jar                |Cloth Config v15 API          |cloth_config                  |15.0.140            |Manifest: NOSIGNATURE
+		conditional-mixin-neoforge-0.6.3.jar              |conditional mixin             |conditional_mixin             |0.6.3               |Manifest: NOSIGNATURE
+		create-1.21.1-6.0.10.jar                          |Create                        |create                        |6.0.10              |Manifest: NOSIGNATURE
+		createdeco-2.1.3.jar                              |Create Deco                   |createdeco                    |2.1.3               |Manifest: NOSIGNATURE
+		bellsandwhistles-0.4.7-1.21.1.jar                 |Create: Bells & Whistles      |bellsandwhistles              |0.4.7-1.21.1        |Manifest: NOSIGNATURE
+		copycats-3.0.8+mc.1.21.1-neoforge.jar             |Create: Copycats+             |copycats                      |3.0.8+mc.1.21.1-neof|Manifest: NOSIGNATURE
+		CreativeCore_NEOFORGE_v2.13.44_mc1.21.1.jar       |CreativeCore                  |creativecore                  |2.13.44             |Manifest: NOSIGNATURE
+		cristellib-neoforge-1.21.1-3.1.7.jar              |Cristel Lib                   |cristellib                    |3.1.7               |Manifest: NOSIGNATURE
+		curios-neoforge-9.5.1+1.21.1.jar                  |Curios API                    |curios                        |9.5.1+1.21.1        |Manifest: NOSIGNATURE
+		dynamiccrosshair-9.11+1.21.1-neoforge.jar         |Dynamic Crosshair             |dynamiccrosshair              |9.11                |Manifest: NOSIGNATURE
+		dynamiccrosshair-api-9.11+1.21.1-neoforge.jar     |Dynamic Crosshair API         |dynamiccrosshairapi           |1.2                 |Manifest: NOSIGNATURE
+		dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar  |Dynamic FPS                   |dynamic_fps                   |3.11.4              |Manifest: NOSIGNATURE
+		embeddium-1.0.15+mc1.21.1.jar                     |Embeddium                     |embeddium                     |1.0.15+mc1.21.1     |Manifest: NOSIGNATURE
+		entity_model_features-3.3.5-1.21-neoforge.jar     |Entity Model Features         |entity_model_features         |3.3.5               |Manifest: NOSIGNATURE
+		entity_texture_features-7.2.1-1.21-neoforge.jar   |Entity Texture Features       |entity_texture_features       |7.2.1               |Manifest: NOSIGNATURE
+		entityculling-neoforge-1.10.5-mc1.21.1.jar        |EntityCulling                 |entityculling                 |1.10.5              |Manifest: NOSIGNATURE
+		FarmersDelight-1.21.1-1.3.4.jar                   |Farmer's Delight              |farmersdelight                |1.3.4               |Manifest: NOSIGNATURE
+		flywheel-neoforge-1.21.1-1.0.6.jar                |Flywheel                      |flywheel                      |1.0.6               |Manifest: NOSIGNATURE
+		ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar    |Forge Config API Port         |forgeconfigapiport            |21.1.6              |Manifest: NOSIGNATURE
+		fzzy_config-0.7.6+1.21+neoforge.jar               |Fzzy Config                   |fzzy_config                   |0.7.6+1.21+neoforge |Manifest: NOSIGNATURE
+		geckolib-neoforge-1.21.1-4.9.2.jar                |GeckoLib 4                    |geckolib                      |4.9.2               |Manifest: NOSIGNATURE
+		GlitchCore-neoforge-1.21.1-2.1.0.2.jar            |GlitchCore                    |glitchcore                    |2.1.0.2             |Manifest: NOSIGNATURE
+		handcrafted-neoforge-1.21.1-4.0.3.jar             |Handcrafted                   |handcrafted                   |4.0.3               |Manifest: NOSIGNATURE
+		TreeChop-1.21.1-neoforge-0.19.3.jar               |HT's TreeChop                 |treechop                      |0.19.3              |Manifest: NOSIGNATURE
+		iceandfire-2.1.2.jar                              |Ice And Fire Community Edition|iceandfire                    |2.1.2               |Manifest: NOSIGNATURE
+		ImmediatelyFast-NeoForge-1.6.13+1.21.1.jar        |ImmediatelyFast               |immediatelyfast               |1.6.13+1.21.1       |Manifest: NOSIGNATURE
+		immersive_furniture-neoforge-0.3.3+1.21.1.jar     |Immersive Furniture           |immersive_furniture           |0.3.3+1.21.1        |Manifest: NOSIGNATURE
+		integration-neoforge-0.2.jar                      |Integration                   |integration                   |0.2                 |Manifest: NOSIGNATURE
+		Jade-1.21.1-NeoForge-15.10.6.jar                  |Jade                          |jade                          |15.10.6+neoforge    |Manifest: NOSIGNATURE
+		jupiter-2.3.7-1.21.1-neoforge.jar                 |Jupiter                       |jupiter                       |2.3.7               |Manifest: NOSIGNATURE
+		jei-1.21.1-neoforge-19.52.0.422.jar               |Just Enough Items             |jei                           |19.52.0.422         |Manifest: NOSIGNATURE
+		thedarkcolour.kffmod-5.12.0.jar                   |Kotlin For Forge              |kotlinforforge                |5.12.0              |Manifest: NOSIGNATURE
+		kubejs-neoforge-2101.7.2-build.374.jar            |KubeJS                        |kubejs                        |2101.7.2-build.374  |Manifest: NOSIGNATURE
+		kuma-api-neoforge-21.0.8+1.21.jar                 |KumaAPI                       |kuma_api                      |21.0.8              |Manifest: NOSIGNATURE
+		lambdynamiclights-4.8.11+1.21.1.jar               |LambDynamicLights             |lambdynlights                 |4.8.11+1.21.1       |Manifest: NOSIGNATURE
+		lambdynamiclights-api-4.8.11+1.21.1-mojmap.jar    |LambDynamicLights (API)       |lambdynlights_api             |4.8.11+1.21.1       |Manifest: NOSIGNATURE
+		lambdynamiclights-4.8.11+1.21.1-neoforge.jar      |LambDynamicLights (Runtime)   |lambdynlights_runtime         |4.8.11+1.21.1       |Manifest: NOSIGNATURE
+		libbamboo-2.25+1.21.1-neoforge.jar                |LibBamboo                     |libbamboo                     |2.25                |Manifest: NOSIGNATURE
+		midnightlib-neoforge-1.9.3+1.21.1.jar             |MidnightLib                   |midnightlib                   |1.9.3               |Manifest: NOSIGNATURE
+		client-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		moreculling-neoforge-1.21.1-1.0.9.jar             |More Culling                  |moreculling                   |1.0.9               |Manifest: NOSIGNATURE
+		naturalist-2.0.3-neoforge-1.21.1.jar              |Naturalist                    |naturalist                    |2.0.3               |Manifest: NOSIGNATURE
+		neoculus-mc1.21.1-1.8.7.jar                       |NeOculus                      |oculus                        |1.8.7               |Manifest: NOSIGNATURE
+		neoforge-21.1.248-universal.jar                   |NeoForge                      |neoforge                      |21.1.248            |Manifest: NOSIGNATURE
+		player-animation-lib-forge-2.0.4+1.21.1.jar       |Player Animator               |playeranimator                |2.0.4+1.21.1        |Manifest: NOSIGNATURE
+		ponder-neoforge-1.0.82+mc1.21.1.jar               |Ponder                        |ponder                        |1.0.82+mc1.21.1     |Manifest: NOSIGNATURE
+		pridelib-1.2.4+1.21.1-mojmap.jar                  |Pride Lib                     |pride                         |1.2.4+1.21.1        |Manifest: NOSIGNATURE
+		raynnarpg-1.6.1.jar                               |Raynna's RPG                  |raynnarpg                     |1.6.1               |Manifest: NOSIGNATURE
+		resourcefullib-neoforge-1.21-3.0.12.jar           |Resourceful Lib               |resourcefullib                |3.0.12              |Manifest: NOSIGNATURE
+		rhino-2101.2.8-build.91.jar                       |Rhino                         |rhino                         |2101.2.8-build.91   |Manifest: NOSIGNATURE
+		sable-companion-common-1.21.1-1.5.0.jar           |Sable Companion               |sablecompanion                |1.5.0               |Manifest: NOSIGNATURE
+		scriptedvision-1.0.jar                            |Scripted Vision               |scriptedvision                |1.0                 |Manifest: NOSIGNATURE
+		SereneSeasons-neoforge-1.21.1-10.1.0.3.jar        |Serene Seasons                |sereneseasons                 |10.1.0.3            |Manifest: NOSIGNATURE
+		voicechat-neoforge-1.21.1-2.6.22.jar              |Simple Voice Chat             |voicechat                     |1.21.1-2.6.22       |Manifest: NOSIGNATURE
+		sophisticatedbackpacks-1.21.1-3.25.78.2107.jar    |Sophisticated Backpacks       |sophisticatedbackpacks        |3.25.78             |Manifest: NOSIGNATURE
+		sophisticatedcore-1.21.1-1.4.90.2299.jar          |Sophisticated Core            |sophisticatedcore             |1.4.90              |Manifest: NOSIGNATURE
+		sound-physics-remastered-neoforge-1.21.1-1.4.10.ja|Sound Physics Remastered      |sound_physics_remastered      |1.21.1-1.4.10       |Manifest: NOSIGNATURE
+		spruceui-6.2.5+1.21.1-mojmap.jar                  |SpruceUI                      |spruceui                      |6.2.5+1.21.1        |Manifest: NOSIGNATURE
+		SubtleEffects-neoforge-1.21.1-1.14.3.jar          |Subtle Effects                |subtle_effects                |1.14.3              |Manifest: NOSIGNATURE
+		TerraBlender-neoforge-1.21.1-4.1.0.8.jar          |TerraBlender                  |terrablender                  |4.1.0.8             |Manifest: NOSIGNATURE
+		tiny-config-3.1.0-neoforge.jar                    |Tiny Config                   |tiny_config                   |3.1.0               |Manifest: NOSIGNATURE
+		t_and_t-fabric-neoforge-1.13.11.jar               |Towns and Towers              |t_and_t                       |1.13.11             |Manifest: NOSIGNATURE
+		TRansition-1.0.21-1.21.1-neoforge-SNAPSHOT.jar    |TRansition                    |transition                    |1.0.21              |Manifest: NOSIGNATURE
+		TRender-1.0.15-1.21.1-neoforge-SNAPSHOT.jar       |TRender                       |trender                       |1.0.15              |Manifest: NOSIGNATURE
+		Tyz's skills 6.4.2 - 1.21.1.jar                   |Tyz's skills                  |tyzs_skills                   |6.4.2               |Manifest: NOSIGNATURE
+		uranus-2.4.1-bugfix-1.21.1-neoforge.jar           |Uranus                        |uranus                        |2.4.1-bugfix        |Manifest: NOSIGNATURE
+		waystones-neoforge-1.21.1-21.1.42.jar             |Waystones                     |waystones                     |21.1.42             |Manifest: NOSIGNATURE
+		xaerominimap-neoforge-1.21.1-26.4.2.jar           |Xaero's Minimap               |xaerominimap                  |26.4.2              |Manifest: NOSIGNATURE
+		xaeroworldmap-neoforge-1.21.1-1.45.0.jar          |Xaero's World Map             |xaeroworldmap                 |1.45.0              |Manifest: NOSIGNATURE
+		xaerolib-neoforge-1.21.1-1.7.1.jar                |XaeroLib                      |xaerolib                      |1.7.1               |Manifest: NOSIGNATURE
+		yumi-mc-foundation-1.0.0-beta.1+1.21.1-mojmap.jar |Yumi Minecraft Libraries: Foun|yumi_mc_core                  |1.0.0-beta.1+1.21.1 |Manifest: NOSIGNATURE
+	Crash Report UUID: 02776c18-1b72-47c9-9bab-15ade615891e
+	FML: 4.0.43
+	NeoForge: 21.1.248
+	Flywheel Backend: flywheel:indirect

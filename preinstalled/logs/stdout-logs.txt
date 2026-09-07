@@ -1,0 +1,938 @@
+﻿[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1788667735802" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[ModLauncher running: args [--username, Hummbertwo, --version, neoforge-21.1.248, --gameDir, C:\Users\supre\curseforge\minecraft\Instances\Hkings, --assetsDir, C:\Users\supre\curseforge\minecraft\Install\assets, --assetIndex, 17, --uuid, 56b72f2b2a7547d2a085d9ec1e7cf020, --accessToken, â„â„â„â„â„â„â„â„, --clientId, 8277a8-1077ee3-e91de2-a0761f-bab8ad, --xuid, 2533274844600204, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, C:\Users\supre\curseforge\minecraft\Quickplay\254f11c9-7fbb-4412-a282-3da5bdcf3019.json, --fml.neoForgeVersion, 21.1.248, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1788667735806" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1788667735809" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.ImmediateWindowHandler" timestamp="1788667737021" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Loading ImmediateWindowProvider fmlearlywindow]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="EARLYDISPLAY" timestamp="1788667737260" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Trying GL version 4.6]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="EARLYDISPLAY" timestamp="1788667737834" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Requested GL version 4.6 got version 4.6]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667738019" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/supre/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23121!/ Service=ModLauncher Env=CLIENT]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="EARLYDISPLAY" timestamp="1788667738236" level="INFO" thread="pool-2-thread-1">
+[STDOUT]     <log4j:Message><![CDATA[GL info: NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 GL version 4.6.0 NVIDIA 596.08, NVIDIA Corporation]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738477" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.248:client]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738506" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "neoforge-21.1.248-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\supre\curseforge\minecraft\Install\libraries\net\neoforged\neoforge\21.1.248\neoforge-21.1.248-universal.jar]], reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738519" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738530" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "appleskin-neoforge-mc1.21-3.0.9.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738532" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "architectury-13.0.11-neoforge.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738543" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "balm-neoforge-1.21.1-21.0.65.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738550" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "bellsandwhistles-0.4.7-1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738556" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "better-advanced-tooltips-2101.1.0-build.5.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738563" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "bettercombat-neoforge-2.4.0+1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738568" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "chat_heads-0.15.7-neoforge-1.21.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738574" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738579" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "copycats-3.0.8+mc.1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738590" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738598" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "createdeco-2.1.3.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738603" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "CreativeCore_NEOFORGE_v2.13.44_mc1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738608" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "cristellib-neoforge-1.21.1-3.1.7.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738612" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738617" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738621" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "dynamiccrosshair-9.11+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738625" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "embeddium-1.0.15+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738630" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "entity_model_features-3.3.5-1.21-neoforge.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738634" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "entity_texture_features-7.2.1-1.21-neoforge.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738638" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "entityculling-neoforge-1.10.5-mc1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738643" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "FarmersDelight-1.21.1-1.3.4.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738648" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738653" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "fzzy_config-0.7.6+1.21+neoforge.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738657" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "geckolib-neoforge-1.21.1-4.9.2.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738663" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.2.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738674" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "handcrafted-neoforge-1.21.1-4.0.3.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738681" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "iceandfire-2.1.2.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738687" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "ImmediatelyFast-NeoForge-1.6.13+1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738693" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "immersive_furniture-neoforge-0.3.3+1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738696" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "Jade-1.21.1-NeoForge-15.10.6.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738701" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "jei-1.21.1-neoforge-19.52.0.422.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738705" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "jupiter-2.3.7-1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738709" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "kotlinforforge-5.12.0-all.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738716" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "kubejs-neoforge-2101.7.2-build.374.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738720" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "lambdynamiclights-4.8.11+1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738722" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "midnightlib-neoforge-1.9.3+1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738727" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "moreculling-neoforge-1.21.1-1.0.9.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738736" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "naturalist-2.0.3-neoforge-1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738742" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "neoculus-mc1.21.1-1.8.7.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738746" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "player-animation-lib-forge-2.0.4+1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738750" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "raynnarpg-1.6.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738757" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "resourcefullib-neoforge-1.21-3.0.12.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738762" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "rhino-2101.2.8-build.91.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738768" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "scriptedvision-1.0.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738770" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738778" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "skinlayers3d-neoforge-1.11.2-mc1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738783" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "sophisticatedbackpacks-1.21.1-3.25.78.2107.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738788" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "sophisticatedcore-1.21.1-1.4.90.2299.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738792" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "sound-physics-remastered-neoforge-1.21.1-1.4.10.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738797" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "SubtleEffects-neoforge-1.21.1-1.14.3.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738802" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "t_and_t-fabric-neoforge-1.13.11.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738807" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "TerraBlender-neoforge-1.21.1-4.1.0.8.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738811" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "TreeChop-1.21.1-neoforge-0.19.3.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738816" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "Tyz's skills 6.4.2 - 1.21.1.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738821" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "uranus-2.4.1-bugfix-1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738825" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "voicechat-neoforge-1.21.1-2.6.22.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738830" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "waystones-neoforge-1.21.1-21.1.41.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738834" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "xaerominimap-neoforge-1.21.1-26.4.2.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667738839" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "xaeroworldmap-neoforge-1.21.1-1.45.0.jar" [locator: {mods folder locator at C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.jarjar.selection.JarSelector" timestamp="1788667739676" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Attempted to select two dependency jars from JarJar which have the same identification: Nested Mod File  in Mod File: C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods\moreculling-neoforge-1.21.1-1.0.9.jar and Nested Mod File  in Mod File: C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods\moreculling-neoforge-1.21.1-1.0.9.jar. Using Nested Mod File  in Mod File: C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods\moreculling-neoforge-1.21.1-1.0.9.jar]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.jarjar.selection.JarSelector" timestamp="1788667739678" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Attempted to select a dependency jar for JarJar which was passed in as source: betteradvancedtooltips. Using Mod File: C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods\better-advanced-tooltips-2101.1.0-build.5.jar]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.jarjar.selection.JarSelector" timestamp="1788667739678" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Attempted to select a dependency jar for JarJar which was passed in as source: architectury. Using Mod File: C:\Users\supre\curseforge\minecraft\Instances\Hkings\mods\architectury-13.0.11-neoforge.jar]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator" timestamp="1788667739678" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found 48 dependencies adding them to mods collection]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739678" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "kuma-api-neoforge-21.0.8+1.21.jar" [parent: balm-neoforge-1.21.1-21.0.65.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739679" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found gamelibrary file "mixinconstraints-1.1.0.jar" [parent: SubtleEffects-neoforge-1.21.1-1.14.3.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739679" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739679" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "net.neoforged.neoforge-coremods-21.1.248.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739679" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "xaerolib-neoforge-1.21.1-1.7.1.jar" [parent: xaerominimap-neoforge-1.21.1-26.4.2.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739681" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "MixinSquared-0.2.0.jar" [parent: mixinsquared-neoforge-0.2.0.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739681" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "TRender-1.0.15-1.21.1-neoforge-SNAPSHOT.jar" [parent: skinlayers3d-neoforge-1.11.2-mc1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739681" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found gamelibrary file "yumi-commons-collections-1.0.0.jar" [parent: lambdynamiclights-api-4.8.11+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739681" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "libbamboo-2.25+1.21.1-neoforge.jar" [parent: dynamiccrosshair-9.11+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739681" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "kotlinx-coroutines-core-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739682" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "yabn-1.0.3.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739682" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "tiny-config-3.1.0-neoforge.jar" [parent: bettercombat-neoforge-2.4.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739682" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "glsl-transformation-lib-0.2.0-20.ge3cb096.jar" [parent: neoculus-mc1.21.1-1.8.7.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739682" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "kotlinx-coroutines-jdk8-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739682" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found gamelibrary file "yumi-commons-event-1.0.0.jar" [parent: lambdynamiclights-api-4.8.11+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739682" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "kotlin-stdlib-jdk7-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739683" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "battery-2.0.0.jar" [parent: dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739683" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "kotlin-stdlib-jdk8-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739683" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "Reflect-1.6.2.jar" [parent: ImmediatelyFast-NeoForge-1.6.13+1.21.1.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739683" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "animated-gif-lib-for-java-animated-gif-lib-1.7.jar" [parent: kubejs-neoforge-2101.7.2-build.374.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739683" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "pridelib-1.2.4+1.21.1-mojmap.jar" [parent: lambdynamiclights-4.8.11+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739683" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "kotlinx-serialization-json-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739683" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "bytecodecs-1.1.2.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739683" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "integration-neoforge-0.2.jar" [parent: iceandfire-2.1.2.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739683" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "jankson-1.2.3.jar" [parent: fzzy_config-0.7.6+1.21+neoforge.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739684" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739684" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found gamelibrary file "yumi-commons-core-1.0.0.jar" [parent: lambdynamiclights-api-4.8.11+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739684" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found gamelibrary file "mixinsquared-neoforge-0.2.0.jar" [parent: moreculling-neoforge-1.21.1-1.0.9.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739684" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "thedarkcolour.kfflang-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739684" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "dynamiccrosshair-api-9.11+1.21.1-neoforge.jar" [parent: dynamiccrosshair-9.11+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739684" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found gamelibrary file "thedarkcolour.kfflib-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739684" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "jcpp-1.4.14.jar" [parent: neoculus-mc1.21.1-1.8.7.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739684" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "thedarkcolour.kffmod-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739684" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "kotlin-stdlib-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739684" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "kotlin-reflect-2.4.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739685" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "sable-companion-common-1.21.1-1.5.0.jar" [parent: immersive_furniture-neoforge-0.3.3+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739685" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739685" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "spruceui-6.2.5+1.21.1-mojmap.jar" [parent: lambdynamiclights-4.8.11+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739685" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "glsl-transformer-2.0.2.jar" [parent: neoculus-mc1.21.1-1.8.7.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739688" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "yumi-mc-foundation-1.0.0-beta.1+1.21.1-mojmap.jar" [parent: lambdynamiclights-4.8.11+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739688" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "tomlkt-jvm-0.3.7.jar" [parent: fzzy_config-0.7.6+1.21+neoforge.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739689" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "lambdynamiclights-api-4.8.11+1.21.1-mojmap.jar" [parent: lambdynamiclights-4.8.11+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739689" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "lambdynamiclights-4.8.11+1.21.1-neoforge.jar" [parent: lambdynamiclights-4.8.11+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739689" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "conditional-mixin-neoforge-0.6.3.jar" [parent: moreculling-neoforge-1.21.1-1.0.9.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739689" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "TRansition-1.0.21-1.21.1-neoforge-SNAPSHOT.jar" [parent: skinlayers3d-neoforge-1.11.2-mc1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739689" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "kotlinx-serialization-core-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739689" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739689" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "tiny-java-server-1.0.0-build.33.jar" [parent: kubejs-neoforge-2101.7.2-build.374.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1788667739694" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[
+[STDOUT]      Mod List:
+[STDOUT] 		Name Version (Mod Id)
+[STDOUT] 
+[STDOUT] 		3d-Skin-Layers 1.11.2 (skinlayers3d)
+[STDOUT] 		AmbientSounds 6.3.8 (ambientsounds)
+[STDOUT] 		AppleSkin 3.0.9+mc1.21 (appleskin)
+[STDOUT] 		Architectury 13.0.11 (architectury)
+[STDOUT] 		Balm 21.0.65 (balm)
+[STDOUT] 		Better Advanced Tooltips 2101.1.0-build.5 (betteradvancedtooltips)
+[STDOUT] 		Better Combat 2.4.0+1.21.1 (bettercombat)
+[STDOUT] 		Chat Heads 0.15.7 (chat_heads)
+[STDOUT] 		Cloth Config v15 API 15.0.140 (cloth_config)
+[STDOUT] 		conditional mixin 0.6.3 (conditional_mixin)
+[STDOUT] 		Create 6.0.10 (create)
+[STDOUT] 		Create Deco 2.1.3 (createdeco)
+[STDOUT] 		Create: Bells & Whistles 0.4.7-1.21.1 (bellsandwhistles)
+[STDOUT] 		Create: Copycats+ 3.0.8+mc.1.21.1-neoforge (copycats)
+[STDOUT] 		CreativeCore 2.13.44 (creativecore)
+[STDOUT] 		Cristel Lib 3.1.7 (cristellib)
+[STDOUT] 		Curios API 9.5.1+1.21.1 (curios)
+[STDOUT] 		Dynamic Crosshair 9.11 (dynamiccrosshair)
+[STDOUT] 		Dynamic Crosshair API 1.2 (dynamiccrosshairapi)
+[STDOUT] 		Dynamic FPS 3.11.4 (dynamic_fps)
+[STDOUT] 		Embeddium 1.0.15+mc1.21.1 (embeddium)
+[STDOUT] 		Entity Model Features 3.3.5 (entity_model_features)
+[STDOUT] 		Entity Texture Features 7.2.1 (entity_texture_features)
+[STDOUT] 		EntityCulling 1.10.5 (entityculling)
+[STDOUT] 		Farmer's Delight 1.3.4 (farmersdelight)
+[STDOUT] 		Flywheel 1.0.6 (flywheel)
+[STDOUT] 		Forge Config API Port 21.1.6 (forgeconfigapiport)
+[STDOUT] 		Fzzy Config 0.7.6+1.21+neoforge (fzzy_config)
+[STDOUT] 		GeckoLib 4 4.9.2 (geckolib)
+[STDOUT] 		GlitchCore 2.1.0.2 (glitchcore)
+[STDOUT] 		Handcrafted 4.0.3 (handcrafted)
+[STDOUT] 		HT's TreeChop 0.19.3 (treechop)
+[STDOUT] 		Ice And Fire Community Edition 2.1.2 (iceandfire)
+[STDOUT] 		ImmediatelyFast 1.6.13+1.21.1 (immediatelyfast)
+[STDOUT] 		Immersive Furniture 0.3.3+1.21.1 (immersive_furniture)
+[STDOUT] 		Integration 0.2 (integration)
+[STDOUT] 		Jade 15.10.6+neoforge (jade)
+[STDOUT] 		Jupiter 2.3.7 (jupiter)
+[STDOUT] 		Just Enough Items 19.52.0.422 (jei)
+[STDOUT] 		Kotlin For Forge 5.12.0 (kotlinforforge)
+[STDOUT] 		KubeJS 2101.7.2-build.374 (kubejs)
+[STDOUT] 		KumaAPI 21.0.8 (kuma_api)
+[STDOUT] 		LambDynamicLights 4.8.11+1.21.1 (lambdynlights)
+[STDOUT] 		LambDynamicLights (API) 4.8.11+1.21.1 (lambdynlights_api)
+[STDOUT] 		LambDynamicLights (Runtime) 4.8.11+1.21.1 (lambdynlights_runtime)
+[STDOUT] 		LibBamboo 2.25 (libbamboo)
+[STDOUT] 		MidnightLib 1.9.3 (midnightlib)
+[STDOUT] 		Minecraft 1.21.1 (minecraft)
+[STDOUT] 		More Culling 1.0.9 (moreculling)
+[STDOUT] 		Naturalist 2.0.3 (naturalist)
+[STDOUT] 		NeOculus 1.8.7 (oculus)
+[STDOUT] 		NeoForge 21.1.248 (neoforge)
+[STDOUT] 		Player Animator 2.0.4+1.21.1 (playeranimator)
+[STDOUT] 		Ponder 1.0.82+mc1.21.1 (ponder)
+[STDOUT] 		Pride Lib 1.2.4+1.21.1 (pride)
+[STDOUT] 		Raynna's RPG 1.6.1 (raynnarpg)
+[STDOUT] 		Resourceful Lib 3.0.12 (resourcefullib)
+[STDOUT] 		Rhino 2101.2.8-build.91 (rhino)
+[STDOUT] 		Sable Companion 1.5.0 (sablecompanion)
+[STDOUT] 		Scripted Vision 1.0 (scriptedvision)
+[STDOUT] 		Serene Seasons 10.1.0.3 (sereneseasons)
+[STDOUT] 		Simple Voice Chat 1.21.1-2.6.22 (voicechat)
+[STDOUT] 		Sophisticated Backpacks 3.25.78 (sophisticatedbackpacks)
+[STDOUT] 		Sophisticated Core 1.4.90 (sophisticatedcore)
+[STDOUT] 		Sound Physics Remastered 1.21.1-1.4.10 (sound_physics_remastered)
+[STDOUT] 		SpruceUI 6.2.5+1.21.1 (spruceui)
+[STDOUT] 		Subtle Effects 1.14.3 (subtle_effects)
+[STDOUT] 		TerraBlender 4.1.0.8 (terrablender)
+[STDOUT] 		Tiny Config 3.1.0 (tiny_config)
+[STDOUT] 		Towns and Towers 1.13.11 (t_and_t)
+[STDOUT] 		TRansition 1.0.21 (transition)
+[STDOUT] 		TRender 1.0.15 (trender)
+[STDOUT] 		Tyz's skills 6.4.2 (tyzs_skills)
+[STDOUT] 		Uranus 2.4.1-bugfix (uranus)
+[STDOUT] 		Waystones 21.1.41 (waystones)
+[STDOUT] 		Xaero's Minimap 26.4.2 (xaerominimap)
+[STDOUT] 		Xaero's World Map 1.45.0 (xaeroworldmap)
+[STDOUT] 		XaeroLib 1.7.1 (xaerolib)
+[STDOUT] 		Yumi Minecraft Libraries: Foundation 1.0.0-beta.1+1.21.1 (yumi_mc_core)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModFile" timestamp="1788667739721" level="ERROR" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Access transformer file META-INF/accesstransformer.cfg provided by mod pride does not exist!]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.FMLServiceProvider" timestamp="1788667740167" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Loading coremod script-engine for [xaeroworldmap, xaerominimap]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742174" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Compatibility level set to JAVA_17]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742177" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Compatibility level set to JAVA_21]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.LaunchServiceHandler" timestamp="1788667742295" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Launching target 'forgeclient' with arguments [--version, neoforge-21.1.248, --gameDir, C:\Users\supre\curseforge\minecraft\Instances\Hkings, --assetsDir, C:\Users\supre\curseforge\minecraft\Install\assets, --uuid, 56b72f2b2a7547d2a085d9ec1e7cf020, --username, Hummbertwo, --assetIndex, 17, --accessToken, â„â„â„â„â„â„â„â„, --clientId, 8277a8-1077ee3-e91de2-a0761f-bab8ad, --xuid, 2533274844600204, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, C:\Users\supre\curseforge\minecraft\Quickplay\254f11c9-7fbb-4412-a282-3da5bdcf3019.json]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742360" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'treechop.mixins.refmap.json' for treechop.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742361" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742362" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742517" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'xaerolib.refmap.json' for xaerolib.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742523" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'subtle_effects.refmap.json' for subtle_effects.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742524" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'subtle_effects.refmap.json' for subtle_effects.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742529" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742530" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742537" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742538" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742539" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'sereneseasons.refmap.json' for sereneseasons.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742540" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'sereneseasons.refmap.json' for sereneseasons.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742543" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742549" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'skinlayers3d.refmap.mixins.json' for skinlayers3d.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="Embeddium" timestamp="1788667742572" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Loaded configuration file for Embeddium: 126 options available, 0 override(s) found]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="Embeddium-GraphicsAdapterProbe" timestamp="1788667742576" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Searching for graphics cards...]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="Embeddium-GraphicsAdapterProbe" timestamp="1788667742774" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found graphics card: GraphicsAdapterInfo[vendor=AMD, name=AMD Radeon(TM) Graphics, version=32.0.21037.1004]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="Embeddium-GraphicsAdapterProbe" timestamp="1788667742775" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce RTX 3050 Ti Laptop GPU, version=32.0.15.9608]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="Embeddium-Workarounds" timestamp="1788667742779" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Embeddium has attempted to apply one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="Embeddium-Workarounds" timestamp="1788667742779" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742783" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'embeddium-refmap.json' for embeddium.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742787" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742789" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742790" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'ambientsounds.mixins.refmap.json' for ambientsounds.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742792" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742794" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'creativecore.mixins.refmap.json' for creativecore.forge.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742795" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'immersive_furniture.refmap.json' for immersive_furniture.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742795" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'immersive_furniture.refmap.json' for immersive_furniture.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742805" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742808" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742808" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742809" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742810" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742823" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'entityculling.refmap.mixins.json' for entityculling.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742832" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'moreculling.refmap.json' for moreculling.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667742910" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'sound_physics_remastered.refmap.json' for sound_physics_remastered.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667743975" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Error loading class: mekanism/client/render/entity/RenderFlame (java.lang.ClassNotFoundException: mekanism.client.render.entity.RenderFlame)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667743976" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Error loading class: mekanism/client/render/armor/MekaSuitArmor (java.lang.ClassNotFoundException: mekanism.client.render.armor.MekaSuitArmor)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667744042" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Error loading class: net/dries007/tfc/common/blocks/wood/TFCLeavesBlock (java.lang.ClassNotFoundException: net.dries007.tfc.common.blocks.wood.TFCLeavesBlock)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667744042" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[@Mixin target net.dries007.tfc.common.blocks.wood.TFCLeavesBlock was not found moreculling.neoforge.mixins.json:compat.TFCLeavesBlockMixin from mod moreculling]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667744071" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Error loading class: com/evandev/fieldguide/client/gui/util/EntryRenderHelper (java.lang.ClassNotFoundException: com.evandev.fieldguide.client.gui.util.EntryRenderHelper)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667744071" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[@Mixin target com.evandev.fieldguide.client.gui.util.EntryRenderHelper was not found naturalist.fieldguide.mixins.json:EntryRenderHelperMixin from mod naturalist]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667744072" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Error loading class: com/evandev/fieldguide/client/gui/screens/FieldGuideEntryScreen (java.lang.ClassNotFoundException: com.evandev.fieldguide.client.gui.screens.FieldGuideEntryScreen)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667744072" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[@Mixin target com.evandev.fieldguide.client.gui.screens.FieldGuideEntryScreen was not found naturalist.fieldguide.mixins.json:FieldGuideEntryScreenMixin from mod naturalist]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667744073" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Error loading class: com/evandev/fieldguide/client/gui/util/IconCacheManager (java.lang.ClassNotFoundException: com.evandev.fieldguide.client.gui.util.IconCacheManager)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667744074" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[@Mixin target com.evandev.fieldguide.client.gui.util.IconCacheManager was not found naturalist.fieldguide.mixins.json:IconCacheManagerMixin from mod naturalist]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667744088" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/aocalc/AoCalculator (java.lang.ClassNotFoundException: net.fabricmc.fabric.impl.client.indigo.renderer.aocalc.AoCalculator)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1788667744267" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="MixinExtras|Service" timestamp="1788667744337" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT] WARN StatusConsoleListener Error parsing URI C:\Users\supre\curseforge\minecraft\Install\assets\log_configs\client-1.12.xml
+[STDOUT] WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[STDOUT] [22:09:06] [Datafixer Bootstrap/INFO] [mojang/DataFixerBuilder]: 229 Datafixer optimizations took 276 milliseconds
+[STDOUT] [22:09:12] [pool-19-thread-1/INFO] [de.yu.mc.co.im.YumiFoundationMod/]: Initializing mods (entrypoint yumi:init)...
+[STDOUT] [22:09:12] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/supre/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23248!/assets/.mcassetsroot' uses unexpected schema
+[STDOUT] [22:09:12] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/supre/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23248!/data/.mcassetsroot' uses unexpected schema
+[STDOUT] [22:09:12] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[STDOUT] [22:09:12] [Render thread/INFO] [minecraft/Minecraft]: Setting user: Hummbertwo
+[STDOUT] [22:09:12] [Render thread/INFO] [LambDynamicLights/]: [LambDynLights] Initializing LambDynamicLights...
+[STDOUT] [22:09:12] [Render thread/INFO] [LambDynamicLights|Config/]: [LambDynLights] Configuration loaded.
+[STDOUT] [22:09:12] [Render thread/ERROR] [Embeddium-MixinTaintDetector/]: Mod mixin into Embeddium internals detected. This instance is now tainted. The Embeddium team does not provide any guarantee of support for issues encountered while such mods are installed.
+[STDOUT] [22:09:12] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class org.embeddedt.embeddium.impl.render.chunk.vertex.format.ChunkMeshAttribute, which may cause instability.
+[STDOUT] [22:09:12] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class org.embeddedt.embeddium.impl.gl.attribute.GlVertexFormat$Builder, which may cause instability.
+[STDOUT] [22:09:12] [Render thread/INFO] [minecraft/Minecraft]: Backend library: LWJGL version 3.3.3+5
+[STDOUT] [22:09:12] [Render thread/WARN] [Embeddium-NvidiaWorkarounds/]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[STDOUT] [22:09:13] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Vendor: NVIDIA Corporation
+[STDOUT] [22:09:13] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2
+[STDOUT] [22:09:13] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Version: 4.6.0 NVIDIA 596.08
+[STDOUT] [22:09:13] [Render thread/WARN] [Embeddium-PostlaunchChecks/]: Enabling secondary workaround for NVIDIA threaded optimizations
+[STDOUT] [22:09:13] [Render thread/INFO] [ImmediatelyFast/]: Initializing ImmediatelyFast 1.6.13+1.21.1 on NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 4.6.0 NVIDIA 596.08
+[STDOUT] [22:09:13] [Render thread/INFO] [ImmediatelyFast/]: Found Iris 1.8.7. Enabling compatibility.
+[STDOUT] [22:09:13] [Render thread/INFO] [NeOculus/]: Debug functionality is disabled.
+[STDOUT] [22:09:13] [Render thread/INFO] [NeOculus/]: OpenGL 4.5 detected, enabling DSA.
+[STDOUT] [22:09:13] [Render thread/INFO] [NeOculus/]: Shaders are disabled because enableShaders is set to false in iris.properties
+[STDOUT] [22:09:13] [Render thread/INFO] [NeOculus/]: Shaders are disabled
+[STDOUT] [22:09:13] [modloading-worker-0/INFO] [minecraft/LoggedPrintStream]: [STDOUT]: [TRender] Initializing Client...
+[STDOUT] [22:09:13] [Download-2/ERROR] [minecraft/Minecraft]: Failed to fetch user properties
+[STDOUT] com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+[STDOUT] 	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59) ~[authlib-6.0.54.jar%23147!/:?] {}
+[STDOUT] 	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:150) ~[authlib-6.0.54.jar%23147!/:?] {}
+[STDOUT] 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.lambda$new$2(Minecraft.java:431) ~[client-1.21.1-20240808.144430-srg.jar%23248!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+[STDOUT] 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?] {}
+[STDOUT] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?] {}
+[STDOUT] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?] {}
+[STDOUT] 	at java.base/java.lang.Thread.run(Unknown Source) [?:?] {re:mixin}
+[STDOUT] Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+[STDOUT] 	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-6.0.54.jar%23147!/:?] {}
+[STDOUT] 	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar%23147!/:?] {}
+[STDOUT] 	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:121) ~[authlib-6.0.54.jar%23147!/:?] {}
+[STDOUT] 	... 5 more
+[STDOUT] [22:09:13] [modloading-worker-0/INFO] [Create Deco/]: Registering items for Create Deco
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fluid_pipe.CopycatGlassFluidPipeBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fluid_pipe.CopycatGlassFluidPipeBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fluid_pipe.CopycatGlassFluidPipeBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fluid_pipe.CopycatGlassFluidPipeBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.door.CopycatDoorBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.door.CopycatDoorBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.door.CopycatDoorBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.door.CopycatDoorBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.multistate.MultiStateCopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.foundation.copycat.multistate.MultiStateCopycatBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.multistate.MultiStateCopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.foundation.copycat.multistate.MultiStateCopycatBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.multistate.MultiStateCopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.foundation.copycat.multistate.MultiStateCopycatBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.multistate.MultiStateCopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.foundation.copycat.multistate.MultiStateCopycatBlock
+[STDOUT] [22:09:13] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.248, for MC 1.21.1
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.sliding_door.CopycatSlidingDoorBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.sliding_door.CopycatSlidingDoorBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.sliding_door.CopycatSlidingDoorBlock
+[STDOUT] [22:09:13] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.sliding_door.CopycatSlidingDoorBlock
+[STDOUT] [22:09:13] [modloading-worker-0/INFO] [glitchcore/]: Registered synced config with path sereneseasons/fertility.toml
+[STDOUT] [22:09:13] [modloading-worker-0/INFO] [glitchcore/]: Registered synced config with path sereneseasons/seasons.toml
+[STDOUT] [22:09:13] [modloading-worker-0/INFO] [xa.ma.WorldMap/]: Registering common data for channel xaeroworldmap:main!
+[STDOUT] [22:09:13] [modloading-worker-0/INFO] [xa.ma.WorldMap/]: Registering client data for channel xaeroworldmap:main!
+[STDOUT] [22:09:13] [modloading-worker-0/INFO] [Entity Texture Features/]: [ETF]: Modifying ETF Render State constructor because: for EMF
+[STDOUT] [22:09:13] [modloading-worker-0/INFO] [tr.en.EMF/]: Loading Entity Model Features, 100% of the time it works 90% of the time!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.ma.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [Entity Texture Features/]: Loading Entity Texture Features, did you know if you turn off the lights and whisper 'OptiFine' 3 times you will lose 20fps.
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.ma.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.ma.WorldMap/]: Loading primary client config for channel xaeroworldmap:main!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.ma.WorldMap/]: Loading client config profiles for channel xaeroworldmap:main!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.li.XaeroLib/]: Registering common data for channel xaerolib:main!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.li.XaeroLib/]: Registering client data for channel xaerolib:main!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [me.je.li.lo.PluginCaller/]: Sending ConfigManager...
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.li.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [me.je.li.lo.PluginCaller/]: Sending ConfigManager took 4.875 milliseconds
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.li.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.li.XaeroLib/]: Loading primary client config for channel xaerolib:main!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.li.XaeroLib/]: Loading client config profiles for channel xaerolib:main!
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.foundation.copycat.CCCopycatBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.foundation.copycat.CCCopycatBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.foundation.copycat.CCCopycatBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.foundation.copycat.CCCopycatBlock
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [co.ia.ju.Jupiter/]: Config spec system detected, register to Jupiter Config System.
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [Create Deco/]: Registering blocks for Create Deco
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [co.ia.ju.Jupiter/]: Cloth Config API detected, register to Jupiter Config System.
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [ne.bl.mo.ba.ne.co.NeoForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 38 properties.
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [Create Deco/]: Populating connected texture maps...
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [Entity Texture Features/]: [ETF]: 6 new ETF Random Properties registered by entity_model_features
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.button.CopycatButtonBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.button.CopycatButtonBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.button.CopycatButtonBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.button.CopycatButtonBlock
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [KubeJS/]: Loading vanilla registries...
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.hu.mi.MinimapLogs/]: Xaero's Minimap: World Map found!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.hu.mi.MinimapLogs/]: No Optifine!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.hu.mi.MinimapLogs/]: Xaero's Minimap: No Vivecraft!
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fence.CopycatFenceBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fence.CopycatFenceBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fence.CopycatFenceBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fence.CopycatFenceBlock
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.hu.mi.MinimapLogs/]: Xaero's Minimap: Iris found!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.hu.mi.MinimapLogs/]: Xaero's Minimap: Waystones found!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source tyzs_skills
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fence_gate.CopycatFenceGateBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fence_gate.CopycatFenceGateBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fence_gate.CopycatFenceGateBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fence_gate.CopycatFenceGateBlock
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.co.HudMod/]: Registering common data for channel xaerominimap:main!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [KubeJS/]: Done in 128.9 ms
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [Towns and Towers/]: Loading T&T
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [co.si.cr.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.ladder.CopycatLadderBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.ladder.CopycatLadderBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.ladder.CopycatLadderBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.ladder.CopycatLadderBlock
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.co.HudMod/]: Registering client data for channel xaerominimap:main!
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.pressure_plate.CopycatPressurePlateBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.pressure_plate.CopycatPressurePlateBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.pressure_plate.CopycatPressurePlateBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.pressure_plate.CopycatPressurePlateBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.pressure_plate.CopycatWeightedPressurePlate
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.pressure_plate.CopycatWeightedPressurePlate
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.pressure_plate.CopycatWeightedPressurePlate
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.pressure_plate.CopycatWeightedPressurePlate
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.co.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.stairs.CopycatStairsBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.stairs.CopycatStairsBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.stairs.CopycatStairsBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.stairs.CopycatStairsBlock
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.co.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.co.HudMod/]: Loading primary client config for channel xaerominimap:main!
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.trapdoor.CopycatTrapdoorBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.trapdoor.CopycatTrapdoorBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.trapdoor.CopycatTrapdoorBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.trapdoor.CopycatTrapdoorBlock
+[STDOUT] [22:09:14] [modloading-worker-0/INFO] [xa.co.HudMod/]: Loading client config profiles for channel xaerominimap:main!
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.wall.CopycatWallBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.wall.CopycatWallBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.wall.CopycatWallBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.wall.CopycatWallBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.shaft.CopycatShaftBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.shaft.CopycatShaftBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.shaft.CopycatShaftBlock
+[STDOUT] [22:09:14] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.shaft.CopycatShaftBlock
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.multistate.MultiStateCopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.cogwheel.CopycatCogWheelBlock
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.multistate.MultiStateCopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.cogwheel.CopycatCogWheelBlock
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.multistate.MultiStateCopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.cogwheel.CopycatCogWheelBlock
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.multistate.MultiStateCopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.cogwheel.CopycatCogWheelBlock
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fluid_pipe.CopycatFluidPipeBlock
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fluid_pipe.CopycatFluidPipeBlock
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fluid_pipe.CopycatFluidPipeBlock
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fluid_pipe.CopycatFluidPipeBlock
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.pane.CopycatPaneBlock
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.pane.CopycatPaneBlock
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.pane.CopycatPaneBlock
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useWithoutItem in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.pane.CopycatPaneBlock
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method onLoad in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockEntityMixin from mod copycats because it already exists in com.copycatsplus.copycats.foundation.copycat.CCCopycatBlockEntity
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method onLoad in copycats-neoforge.mixins.json:foundation.copycat.multistate.MultiStateCopycatBlockEntityMixin from mod copycats because it already exists in com.copycatsplus.copycats.foundation.copycat.multistate.MultiStateCopycatBlockEntity
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method onLoad in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockEntityMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.shaft.CopycatShaftBlockEntity
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method onLoad in copycats-neoforge.mixins.json:foundation.copycat.multistate.MultiStateCopycatBlockEntityMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.cogwheel.CopycatCogWheelBlockEntity
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method onLoad in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockEntityMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fluid_pipe.CopycatFluidPipeBlockEntity
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method onLoad in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockEntityMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.fluid_pipe.CopycatStraightPipeBlockEntity
+[STDOUT] [22:09:15] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method onLoad in copycats-neoforge.mixins.json:foundation.copycat.CopycatBlockEntityMixin from mod copycats because it already exists in com.copycatsplus.copycats.content.copycat.sliding_door.CopycatSlidingDoorBlockEntity
+[STDOUT] [22:09:15] [modloading-worker-0/INFO] [th.ko.ne.te.KotlinForForge/]: Kotlin For Forge Enabled!
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config fzzy_config:keybinds in 2124ms
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config subtle_effects:general in 2094ms
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:main.js in 0.074 s
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 1.419 s with 0 errors and 0 warnings
+[STDOUT] [22:09:16] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-common.mixins.json:copycat.step.CopycatStepBlockMixin from mod copycats because it already exists in com.simibubi.create.content.decoration.copycat.CopycatStepBlock
+[STDOUT] [22:09:16] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method onLoad in copycats-common.mixins.json:foundation.copycat.CopycatBlockEntityMixin from mod copycats because it already exists in com.simibubi.create.content.decoration.copycat.CopycatBlockEntity
+[STDOUT] [22:09:16] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method useItemOn in copycats-common.mixins.json:copycat.panel.CopycatPanelBlockMixin from mod copycats because it already exists in com.simibubi.create.content.decoration.copycat.CopycatPanelBlock
+[STDOUT] [22:09:16] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method mirror in copycats-common.mixins.json:copycat.panel.CopycatPanelBlockMixin from mod copycats because it already exists in com.simibubi.create.content.decoration.copycat.CopycatPanelBlock
+[STDOUT] [22:09:16] [modloading-worker-0/WARN] [mixin/]: Discarding @Unique public method rotate in copycats-common.mixins.json:copycat.panel.CopycatPanelBlockMixin from mod copycats because it already exists in com.simibubi.create.content.decoration.copycat.CopycatPanelBlock
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [KubeJS Client/]: client_scripts:main.js#2: Hello, World! (Loaded client example script)
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded script client_scripts:main.js in 0.001 s
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded 1/1 KubeJS client scripts in 0.049 s with 0 errors and 0 warnings
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [KubeJS Startup/]: Validated 2 files in kubejs/assets/ in 5ms
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [KubeJS Startup/]: Validated 0 files in kubejs/data/ in 0ms
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config subtle_effects:blocks in 186ms
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config subtle_effects:entities in 126ms
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config subtle_effects:environment in 97ms
+[STDOUT] [22:09:16] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config subtle_effects:items in 44ms
+[STDOUT] [22:09:23] [modloading-sync-worker/INFO] [minecraft/LoggedPrintStream]: [STDOUT]: Loaded on client
+[STDOUT] [22:09:23] [modloading-sync-worker/INFO] [minecraft/LoggedPrintStream]: [STDOUT]: Loaded on server
+[STDOUT] [22:09:23] [Render thread/INFO] [Embeddium/]: Block minecraft:birch_leaves had its color provider replaced and will not use per-vertex coloring
+[STDOUT] [22:09:23] [Render thread/INFO] [NeOculus/]: Hardware information:
+[STDOUT] [22:09:23] [Render thread/INFO] [NeOculus/]: CPU: 16x AMD Ryzen 7 6800H with Radeon Graphics 
+[STDOUT] [22:09:23] [Render thread/INFO] [NeOculus/]: GPU: NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 596.08)
+[STDOUT] [22:09:23] [Render thread/INFO] [NeOculus/]: OS: Windows 11 (10.0)
+[STDOUT] [22:09:23] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class org.embeddedt.embeddium.api.vertex.attributes.CommonVertexAttribute, which may cause instability.
+[STDOUT] [22:09:24] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class org.embeddedt.embeddium.impl.render.EmbeddiumWorldRenderer, which may cause instability.
+[STDOUT] [22:09:24] [Render thread/INFO] [minecraft/ReloadableResourceManager]: Reloading ResourceManager: vanilla, KubeJS Virtual Resource Pack [Before Mods, assets], mod_resources, mod/bellsandwhistles, mod/treechop, mod/rhino, mod/kuma_api, mod/geckolib, mod/createdeco, mod/copycats, mod/playeranimator, mod/jei, mod/dynamiccrosshair, mod/xaerolib, mod/subtle_effects, mod/trender, mod/sophisticatedcore, mod/libbamboo, mod/waystones, mod/xaeroworldmap, mod/neoforge, mod/kubejs, mod/lambdynlights, mod/tiny_config, mod/glitchcore, mod/sereneseasons, mod/sophisticatedbackpacks, mod/midnightlib, mod/iceandfire, mod/balm, mod/chat_heads, mod/skinlayers3d, mod/cloth_config, mod/fzzy_config, mod/pride, mod/integration, mod/embeddium, mod/farmersdelight, mod/entity_model_features, mod/entity_texture_features, mod/handcrafted, mod/voicechat,voicechat_api, mod/sound_physics_remastered, mod/terrablender, mod/ambientsounds, mod/bettercombat, mod/jade, mod/jupiter, mod/creativecore, mod/dynamiccrosshairapi, mod/forgeconfigapiport, mod/kotlinforforge, mod/immersive_furniture, mod/sablecompanion, mod/flywheel, mod/ponder, mod/create, mod/curios, mod/xaerominimap, mod/oculus,iris, mod/raynnarpg, mod/spruceui, mod/entityculling, mod/yumi_mc_core, mod/resourcefullib, mod/moreculling, mod/immediatelyfast, mod/betteradvancedtooltips, mod/lambdynlights_api, mod/naturalist, mod/appleskin, mod/scriptedvision, mod/architectury, mod/uranus, mod/lambdynlights_runtime, mod/conditional_mixin, mod/transition, mod/dynamic_fps, mod/t_and_t, mod/tyzs_skills, mod/cristellib, file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip, file/FA+All_Extensions-v1.8.1.zip, file/FA+Player-v1.1.zip, file/FreshAnimations_v1.10.4.zip, file/LowOnFire 1.21.3.zip, file/MandalasGUI+Dakmode_1.21.8_v3.1.zip, KubeJS Virtual Resource Pack [Internal, assets], KubeJS Virtual Resource Pack [After Mods, assets], KubeJS File Resource Pack [assets], file/cubic-sun-moon-v1.8.5.zip, KubeJS Virtual Resource Pack [Last, assets]
+[STDOUT] [22:09:24] [Worker-Main-5/INFO] [xa.li.XaeroLib/]: Loading XaeroLib common 1/2!
+[STDOUT] [22:09:24] [Worker-Main-10/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[STDOUT] [22:09:24] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [copycats] Starting version check at https://raw.githubusercontent.com/copycats-plus/copycats/multiloader/update.json
+[STDOUT] [22:09:24] [Worker-Main-9/INFO] [minecraft/UnihexProvider]: Found unifont_all_no_pua-15.1.05.hex, loading
+[STDOUT] [22:09:25] [Worker-Main-13/INFO] [minecraft/UnihexProvider]: Found unifont_jp_patch-15.1.05.hex, loading
+[STDOUT] [22:09:25] [Render thread/INFO] [KubeJS Client/]: Client resource reload complete!
+[STDOUT] [22:09:25] [Render thread/INFO] [moreculling/]: Cached all modded block culling states
+[STDOUT] [22:09:25] [Worker-Main-10/INFO] [voicechat/]: [voicechat] Loading plugins
+[STDOUT] [22:09:25] [Worker-Main-10/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[STDOUT] [22:09:25] [Worker-Main-10/INFO] [voicechat/]: [voicechat] Initializing plugins
+[STDOUT] [22:09:25] [Worker-Main-10/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
+[STDOUT] [22:09:25] [Worker-Main-10/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[STDOUT] [22:09:25] [Worker-Main-10/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
+[STDOUT] [22:09:25] [Worker-Main-6/INFO] [xa.li.XaeroLib/]: Loading XaeroLib client 1/2!
+[STDOUT] [22:09:25] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [copycats] Found status: AHEAD Current: 3.0.8+mc.1.21.1-neoforge Target: null
+[STDOUT] [22:09:25] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/neoforge/voicechat
+[STDOUT] [22:09:25] [Worker-Main-15/INFO] [xa.ma.WorldMap/]: Loading Xaero's World Map - Stage 1/2
+[STDOUT] [22:09:25] [Worker-Main-8/INFO] [xa.mi.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2
+[STDOUT] [22:09:25] [Worker-Main-5/INFO] [ne.ra.ra.RaynnaRPG/]: [RaynnaRPG] Mod loaded on client]
+[STDOUT] [22:09:25] [Worker-Main-4/WARN] [minecraft/SpriteLoader]: Texture iceandfire:item/dragonsteel_lightning_sword with size 36x36 limits mip level from 4 to 2
+[STDOUT] [22:09:25] [Worker-Main-4/WARN] [minecraft/SpriteLoader]: Texture iceandfire:item/dread_queen_sword with size 38x43 limits mip level from 2 to 0
+[STDOUT] [22:09:25] [Worker-Main-7/INFO] [voicechat/]: [voicechat] Initializing Opus
+[STDOUT] [22:09:25] [Worker-Main-7/INFO] [voicechat/]: [voicechat] Successfully initialized Opus
+[STDOUT] [22:09:25] [Worker-Main-7/INFO] [voicechat/]: [voicechat] Initializing RNNoise
+[STDOUT] [22:09:25] [Worker-Main-7/INFO] [voicechat/]: [voicechat] Successfully initialized RNNoise
+[STDOUT] [22:09:25] [Worker-Main-7/INFO] [voicechat/]: [voicechat] Initializing Speex
+[STDOUT] [22:09:26] [Worker-Main-7/INFO] [voicechat/]: [voicechat] Successfully initialized Speex
+[STDOUT] [22:09:26] [Worker-Main-7/INFO] [voicechat/]: [voicechat] Initializing LAME
+[STDOUT] [22:09:26] [Worker-Main-7/INFO] [voicechat/]: [voicechat] Successfully initialized LAME
+[STDOUT] [22:09:26] [Worker-Main-7/INFO] [voicechat/]: [voicechat] Using Cloth Config GUI
+[STDOUT] [22:09:26] [Worker-Main-7/INFO] [Sound Physics - General/]: Reloading reverb parameters
+[STDOUT] [22:09:26] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.21.1-2.6.22 Target: 1.21.1-2.6.23
+[STDOUT] [22:09:26] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/neoforge/sound_physics_remastered
+[STDOUT] [22:09:26] [Worker-Main-7/INFO] [Sound Physics - General/]: Using Cloth Config GUI
+[STDOUT] [22:09:26] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [sound_physics_remastered] Found status: BETA_OUTDATED Current: 1.21.1-1.4.10 Target: 1.21.1-1.5.1
+[STDOUT] [22:09:26] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [forgeconfigapiport] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/forgeconfigapiport.json
+[STDOUT] [22:09:26] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [forgeconfigapiport] Found status: UP_TO_DATE Current: 21.1.6 Target: null
+[STDOUT] [22:09:26] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[STDOUT] [22:09:26] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[STDOUT] [22:09:26] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [dynamic_fps] Starting version check at https://api.lostluma.net/updates/dynamic-fps?platform=neoforge
+[STDOUT] [22:09:26] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [dynamic_fps] Found status: UP_TO_DATE Current: 3.11.4 Target: null
+[STDOUT] [22:09:27] [Render thread/INFO] [KubeJS/]: Started the local web server at http://localhost:61423
+[STDOUT] [22:09:27] [Render thread/INFO] [xa.ma.WorldMap/]: Loading Xaero's World Map - Stage 2/2
+[STDOUT] [22:09:27] [Render thread/INFO] [xa.ma.WorldMap/]: New world map region cache hash code: -581310666
+[STDOUT] [22:09:27] [Render thread/INFO] [xa.ma.WorldMap/]: Registered player tracker system: map_synced
+[STDOUT] [22:09:27] [Render thread/INFO] [xa.ma.WorldMap/]: Xaero's WorldMap Mod: Xaero's minimap found!
+[STDOUT] [22:09:27] [Render thread/INFO] [xa.ma.WorldMap/]: Registered player tracker system: minimap_synced
+[STDOUT] [22:09:27] [Render thread/INFO] [xa.ma.WorldMap/]: No Optifine!
+[STDOUT] [22:09:27] [Render thread/INFO] [xa.ma.WorldMap/]: Xaero's World Map: No Vivecraft!
+[STDOUT] [22:09:27] [Render thread/INFO] [xa.ma.WorldMap/]: Xaero's World Map: Iris found!
+[STDOUT] [22:09:28] [Render thread/INFO] [xa.mi.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2
+[STDOUT] [22:09:28] [Render thread/INFO] [xa.hu.mi.MinimapLogs/]: Registered player tracker system: minimap_synced
+[STDOUT] [22:09:28] [Render thread/INFO] [xa.li.XaeroLib/]: Loading XaeroLib common 2/2!
+[STDOUT] [22:09:28] [Render thread/INFO] [xa.li.XaeroLib/]: Loading XaeroLib client 2/2!
+[STDOUT] [22:09:29] [Worker-Main-8/INFO] [co.ia.ur.Uranus/]: Successfully load 192 tabula models
+[STDOUT] [22:09:32] [Worker-Main-11/INFO] [sn.ja.Jade/]: Start loading plugin from ht.treechop.compat.Jade
+[STDOUT] [22:09:32] [Worker-Main-11/INFO] [sn.ja.Jade/]: Start loading plugin from net.blay09.mods.waystones.compat.JadeIntegration
+[STDOUT] [22:09:32] [Worker-Main-11/INFO] [sn.ja.Jade/]: Start loading plugin from com.iafenvoy.iceandfire.compat.jade.IceAndFireJadePlugin
+[STDOUT] [22:09:32] [Worker-Main-11/INFO] [sn.ja.Jade/]: Start loading plugin from net.blay09.mods.balm.neoforge.compat.hudinfo.NeoForgeJadeModCompat
+[STDOUT] [22:09:32] [Worker-Main-11/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
+[STDOUT] [22:09:32] [Worker-Main-1/INFO] [PonderIndex/]: Registering Ponder Scenes took 67.41 ms
+[STDOUT] [22:09:32] [Worker-Main-1/INFO] [PonderIndex/]: Registering Ponder Tags took 3.889 ms
+[STDOUT] [22:09:32] [Worker-Main-11/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
+[STDOUT] [22:09:32] [Worker-Main-11/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
+[STDOUT] [22:09:32] [Worker-Main-11/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
+[STDOUT] [22:09:32] [Worker-Main-11/INFO] [sn.ja.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
+[STDOUT] [22:09:32] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:item.goat_horn.play
+[STDOUT] [22:09:32] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[STDOUT] [22:09:33] [Render thread/INFO] [mojang/Library]: OpenAL initialized on device OpenAL Soft on Altavoces (USBAudio2.0)
+[STDOUT] [22:09:33] [Render thread/INFO] [Sound Physics - General/]: Initializing Sound Physics
+[STDOUT] [22:09:33] [Render thread/INFO] [Sound Physics - General/]: EFX Extension recognized
+[STDOUT] [22:09:33] [Render thread/INFO] [Sound Physics - General/]: Max auxiliary sends: 4
+[STDOUT] [22:09:33] [Render thread/INFO] [Sound Physics - General/]: Aux slot 1 created
+[STDOUT] [22:09:33] [Render thread/INFO] [Sound Physics - General/]: Aux slot 2 created
+[STDOUT] [22:09:33] [Render thread/INFO] [Sound Physics - General/]: Aux slot 3 created
+[STDOUT] [22:09:33] [Render thread/INFO] [Sound Physics - General/]: Aux slot 4 created
+[STDOUT] [22:09:33] [Render thread/INFO] [Sound Physics - General/]: EFX ready
+[STDOUT] [22:09:33] [Render thread/INFO] [minecraft/SoundEngine]: Sound engine started
+[STDOUT] [22:09:33] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 4096x4096x4 minecraft:textures/atlas/blocks.png-atlas
+[STDOUT] [22:09:33] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[STDOUT] [22:09:33] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[STDOUT] [22:09:33] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[STDOUT] [22:09:33] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[STDOUT] [22:09:33] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[STDOUT] [22:09:33] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[STDOUT] [22:09:33] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[STDOUT] [22:09:33] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[STDOUT] [22:09:34] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: [_e]
+[STDOUT] [22:09:35] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 2048x1024x0 minecraft:textures/atlas/particles.png-atlas
+[STDOUT] [22:09:35] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
+[STDOUT] [22:09:35] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[STDOUT] [22:09:35] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[STDOUT] [22:09:35] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[STDOUT] [22:09:35] [Render thread/WARN] [minecraft/ShaderInstance]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[STDOUT] [22:09:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[STDOUT] [22:09:36] [Render thread/INFO] [xa.li.XaeroLib/]: Successfully reloaded the XaeroLib shaders!
+[STDOUT] [22:09:36] [Render thread/INFO] [ne.ne.ne.cl.en.an.js.AnimationLoader/]: Loaded 0 entity animations
+[STDOUT] [22:09:37] [Render thread/WARN] [co.ia.ju.Jupiter/]: Cannot find suitable entry for key=cycle_duration, type=java.lang.Long in config=tyzs_skills:COMMON
+[STDOUT] [22:09:37] [Render thread/WARN] [co.ia.ju.Jupiter/]: Notice: Jupiter cannot resolve 54 empty List<Enum> since technical issue in Java, it is recommended to add a value in default value list.
+[STDOUT] [22:09:37] [Render thread/INFO] [co.ia.ju.Jupiter/]: Config spec loading complete, found 26 configs from 16 mods.
+[STDOUT] [22:09:37] [Render thread/INFO] [co.ia.ju.Jupiter/]: Cloth Config loading complete, found 3 configs from 3 mods.
+[STDOUT] [22:09:37] [Render thread/INFO] [co.ia.ju.Jupiter/]: Successfully reload 32 common config(s).
+[STDOUT] [22:09:37] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 19.157 ms
+[STDOUT] [22:09:37] [Render thread/INFO] [co.si.cr.Create/]: Loaded 58 train hat configurations.
+[STDOUT] [22:09:38] [Render thread/INFO] [Entity Texture Features/]: [ETF]: reloading ETF data.
+[STDOUT] [22:09:38] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: [_e]
+[STDOUT] [22:09:38] [Render thread/INFO] [NeOculus/]: Creating pipeline for dimension minecraft:overworld
+[STDOUT] [22:09:38] [Render thread/WARN] [Embeddium-MixinTaintDetector/]: Mod(s) [oculus] are modifying Embeddium class org.embeddedt.embeddium.impl.gl.device.GLRenderDevice$ImmediateDrawCommandList, which may cause instability.
+[STDOUT] [22:09:38] [Render thread/INFO] [ambientsounds/]: Loaded AmbientEngine 'basic' v3.2.5. 11 dimension(s), 11 features, 11 blockgroups, 2 sound collections, 38 regions, 60 sounds, 12 sound categories, 6 solids and 2 biome types
+[STDOUT] [22:09:38] [IO-Worker-1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: javax.ws.rs.NotAuthorizedException: HTTP 401 Unauthorized
+[STDOUT] [22:09:38] [IO-Worker-1/ERROR] [mojang/RealmsAvailability]: Couldn't connect to realms
+[STDOUT] com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'javax.ws.rs.NotAuthorizedException: HTTP 401 Unauthorized'
+[STDOUT] 	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:447) ~[client-1.21.1-20240808.144430-srg.jar%23248!/:?] {re:classloading}
+[STDOUT] 	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:232) ~[client-1.21.1-20240808.144430-srg.jar%23248!/:?] {re:classloading}
+[STDOUT] 	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.RealmsAvailability.lambda$check$0(RealmsAvailability.java:51) ~[client-1.21.1-20240808.144430-srg.jar%23248!/:?] {re:classloading}
+[STDOUT] 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?] {}
+[STDOUT] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?] {}
+[STDOUT] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?] {}
+[STDOUT] 	at java.base/java.lang.Thread.run(Unknown Source) [?:?] {re:mixin}
+[STDOUT] [22:09:59] [Render thread/INFO] [minecraft/Minecraft]: Stopping!
+[STDOUT] [22:09:59] [CullThread/INFO] [minecraft/LoggedPrintStream]: [STDOUT]: Shutting down culling task!
+[STDOUT] [22:09:59] [Render thread/INFO] [co.ty.Tyzsskills/]: CACHE CLEARED
+[STDOUT] [22:09:59] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: [_e]
+[STDOUT] [22:09:59] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: [_e]
+[STDOUT] Program Name : 
+[STDOUT] MoreInfo Link : 
+[STDOUT] Program Name : 
+[STDOUT] MoreInfo Link : 
+[STDOUT] Program Name : 
+[STDOUT] MoreInfo Link : 
+[EXIT] code=0, terminatedByApp=false
