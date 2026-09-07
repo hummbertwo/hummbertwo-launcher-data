@@ -4,7 +4,7 @@
   "neoforgeVersion": "21.1.248",
   "server": {
     "ip": "play.hummbertwo.net",
-    "port": 25565
+    "port": 25566
   },
   "news": [
     { "title": "¡Bienvenido al nuevo launcher!", "date": "2026-09-07" },
